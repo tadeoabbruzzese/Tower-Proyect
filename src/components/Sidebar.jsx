@@ -174,7 +174,7 @@ const Container =styled.div`
         }
         h2{
             display: ${({isOpen}) =>(isOpen)?`block`:`none`};
-            font-size: 16px;
+            font-size: 25px;
 
         }
     }
@@ -182,6 +182,7 @@ const Container =styled.div`
     .LinkContainer{
         margin: 8px 0;
         padding: 0 15%;
+        font-size: 17px;
         :hover{
             background: ${(props) =>props.theme.bg3};
         }
