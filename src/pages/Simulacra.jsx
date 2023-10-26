@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Tittles } from "../components/Tittles";
+import ImageGrid from "../components/ImageGrid";
 export function Simulacra(props) {
     
     return(
@@ -10,7 +11,11 @@ export function Simulacra(props) {
                  <p className="simulacra-detail"> {props.p}</p>
             </div>
         </div>
-        
+        <div className="container-characters">
+            <h1 className="titulo">Characters</h1>
+            <ImageGrid />
+      {/* Agregar componentes si faltan */}
+    </div>
     </Container>
     );
 }

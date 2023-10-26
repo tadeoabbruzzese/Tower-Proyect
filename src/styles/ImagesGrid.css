@@ -1,0 +1,96 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .image-item {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .image-item img {
+    max-width: 200px;
+    max-height: 300px;
+  }
+
+.container-characters{
+  height: 800px;
+  width: 100%;
+  padding: 40px;
+  padding-top: 60px;
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+
+  
+}
+
+.image-item {
+  margin: 10px;
+}
+
+.image-box {
+  position: relative;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+
+.image-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Color de fondo semitransparente */
+  color: white; /* Color del texto */
+  padding: 10px;
+}
+
+.image-caption h2, .image-caption p {
+  margin: 0;
+}
+
+/* ImagesGrid.css */
+
+/* Estilos específicos para las imágenes principales */
+.main-image {
+  width: 200px; /* Tamaño fijo para todas las imágenes principales */
+  height: 200px; /* Tamaño fijo para todas las imágenes principales */
+  object-fit: cover; /* Para asegurarte de que las imágenes mantengan la relación de aspecto y se ajusten al tamaño especificado sin distorsión. */
+}
+
+/* Estilos para las mini imágenes */
+.mini-images {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+/* Estilos para las mini imágenes */
+.mini-image {
+  
+  width: 30px; /* Tamaño de las mini imágenes */
+  height: 30px; /* Tamaño de las mini imágenes */
+}
+
+/* Estilos para la caja de mini imágenes junto al título */
+.title-and-mini {
+  display: flex;
+  justify-content: space-around; /* Alineación horizontal */
+  align-items: center; /* Alineación vertical */
+}
+
+/* Estilos para el título */
+.title-and-mini h2 {
+  margin: 0; /* Elimina el margen del título para ajustar el espaciado */
+  padding-left: 10px;
+}
+
+/* Estilos para las mini imágenes */
+.title-and-mini img.mini-image {
+  width: 30px; /* Tamaño de las mini imágenes */
+  height: 30px; /* Tamaño de las mini imágenes */ /* Espacio entre el título y las mini imágenes */
+}
