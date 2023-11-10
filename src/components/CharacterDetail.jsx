@@ -38,7 +38,7 @@ function ImageDetail() {
           <h2 className="titulo">{characterDetails.title}</h2>
           <img src={characterDetails.src} className="imageCaracter" />
           <p>{characterDetails.description}</p>
-          {/* Puedes mostrar otros detalles aquí */}
+          {/* Puedes mostrar otros detalles aquí*/}
           <div>
             <h2 className='subtitulo'>Shatter: {characterDetails.shatter} Charge: {characterDetails.charge}</h2>
             <p className='parrafo-weapon'>Weapon Effects</p>
