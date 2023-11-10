@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import MatricesDetail from '../components/MatricesDetail'
 export function Matrices(props) {
     
     return(
@@ -9,12 +10,16 @@ export function Matrices(props) {
                  <p className="simulacra-detail"> {props.p}</p>
             </div>
         </div>
-        
+        <div className="container-characters">
+            <h1 className="titulo">Matrices</h1>
+            <MatricesDetail />
+      {/* Agregar componentes si faltan */}
+    </div>
     </Container>
     );
 }
 const Container =styled.div`
-    height: 100vh;
+    min-height: 100vh;
     width: 100%
 
     .container-global{
@@ -37,9 +42,10 @@ const Container =styled.div`
 
     .simulacra-detail{
         
-        display: flex;
-        justify-content: center;
-        font-size: 20px;
+        padding: 0 30px;
+        padding: 0 25%;
+        font-size: 20px
         
+
     }
 `

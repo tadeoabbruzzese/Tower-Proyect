@@ -1,0 +1,288 @@
+[
+    {
+        "id": 1,
+        "src": "/matrices/yanmiaomatrice.jpg",
+        "alt": "Imagen 1",
+        "title": "Yan Miao",
+        "miniTag": "CN"
+    },
+    {
+        "id": 2,
+        "src": "/matrices/yulanmatrice.jpg",
+        "alt": "Imagen 2",
+        "title": "Nan Yin",
+        "miniTag": "CN"
+    },
+    {
+        "id": 3,
+        "src": "/matrices/linghanmatrice.jpg",
+        "alt": "Imagen 3",
+        "title": "Ling Han"
+    },
+    {
+        "id": 4,
+        "src": "/matrices/feisematrice.jpg",
+        "alt": "Imagen 4",
+        "title": "Feise"
+    },
+    {
+        "id": 5,
+        "src": "/matrices/mimimatrice.jpg",
+        "alt": "Imagen 5",
+        "title": "Mimi"
+    },
+    {
+        "id": 6,
+        "src": "/matrices/zekematrice.jpg",
+        "alt": "Imagen 6",
+        "title": "Zeke"
+    },
+    {
+        "id": 7,
+        "src": "/matrices/yulanmatrice.jpg",
+        "alt": "Imagen 7",
+        "title": "Yulan"
+    },
+    {
+        "id": 8,
+        "src": "/matrices/lihuomatrice.jpg",
+        "alt": "Imagen 8",
+        "title": "Lihuo",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 9,
+        "src": "/matrices/rubiliamatrice.jpg",
+        "alt": "Imagen 9",
+        "title": "Rubilia",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/voltelement.jpg"
+    },
+    {
+        "id": 10,
+        "src":"/matrices/gnonomatrice.jpg",
+        "alt": "Imagen 10",
+        "title": "Gnonno",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/physicalelement.jpg"
+    },
+    {
+        "id": 11,
+        "src": "/matrices/fionamatrice.jpg",
+        "alt": "Imagen 11",
+        "title": "Fiona",
+        "miniImage1": "src/assets/mini-images/healer.jpg",
+        "miniImage2": "src/assets/mini-images/alteredelement.jpg"
+    },
+    {
+        "id": 12,
+        "src": "/matrices/icarusmatrice.jpg",
+        "alt": "Imagen 12",
+        "title": "Icarus",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/frostelement.jpg"
+    },
+    {
+        "id": 13,
+        "src": "/matrices/habramatrice.jpg",
+        "alt": "Imagen 13",
+        "title": "Haboela",
+        "miniImage1": "src/assets/mini-images/tank.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 14,
+        "src": "/matrices/scyllamatrice.jpg",
+        "alt": "Imagen 14",
+        "title": "Scylla",
+        "miniImage1": "src/assets/mini-images/tank.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 15,
+        "src": "/matrices/umimatrice.jpg",
+        "alt": "Imagen 15",
+        "title": "Umi",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/physicalelement.jpg"
+    },
+    {
+        "id": 16,
+        "src": "/matrices/alyssmatrice.jpg",
+        "alt": "Imagen 16",
+        "title": "Alyss",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/frostelement.jpg"
+    },
+    {
+        "id": 17,
+        "src": "/matrices/anabellamatrice.jpg",
+        "alt": "Imagen 17",
+        "title": "Anabella",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 18,
+        "src": "/matrices/tianlangmatrice.jpg",
+        "alt": "Imagen 18",
+        "title": "Tian Lang",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/voltelement.jpg"
+    },
+    {
+        "id": 19,
+        "src": "/matrices/lyramatrice.jpg",
+        "alt": "Imagen 19",
+        "title": "Lyra",
+        "miniImage1": "src/assets/mini-images/healer.jpg",
+        "miniImage2": "src/assets/mini-images/physicalelement.jpg"
+    },
+    {
+        "id": 20,
+        "src": "/matrices/linmatrice.jpg",
+        "alt": "Imagen 20",
+        "title": "Lin",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/alteredelement.jpg"
+    },
+    {
+        "id": 21,
+        "src": "/matrices/sakifuwamatrice.jpg",
+        "alt": "Imagen 21",
+        "title": "Saki Fuwa",
+        "miniImage1": "src/assets/mini-images/tank.jpg",
+        "miniImage2": "src/assets/mini-images/frostelement.jpg"
+    },
+    {
+        "id": 22,
+        "src": "/matrices/rubymatrice.jpg",
+        "alt": "Imagen 22",
+        "title": "Ruby",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 23,
+        "src": "/matrices/friggmatrice.jpg",
+        "alt": "Imagen 23",
+        "title": "Frigg",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/frostelement.jpg"
+    },
+    {
+        "id": 24,
+        "src": "/matrices/nemesismatrice.jpg",
+        "alt": "Imagen 24",
+        "title": "Nemesis",
+        "miniImage1": "src/assets/mini-images/healer.jpg",
+        "miniImage2": "src/assets/mini-images/voltelement.jpg"
+    },
+    {
+        "id": 25,
+        "src": "/matrices/marcmatrice.jpg",
+        "alt": "Imagen 25",
+        "title": "Marc",
+        "miniImage1": "src/assets/mini-images/tank.jpg",
+        "miniImage2": "src/assets/mini-images/physicalelement.jpg",
+        "miniTag": "CN"
+    },
+    {
+        "id": 26,
+        "src": "/matrices/bayuekimatrice.jpg",
+        "alt": "Imagen 26",
+        "title": "Bayuekui",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/voltelement.jpg",
+        "miniTag": "CN"
+    },
+    {
+        "id": 27,
+        "src": "/matrices/cobaltbmatrice.jpg",
+        "alt": "Imagen 27",
+        "title": "Cobalt B",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 28,
+        "src": "/matrices/claudiamatrice.jpg",
+        "alt": "Imagen 28",
+        "title": "Claudia",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/physicalelement.jpg"
+    },
+    {
+        "id": 29,
+        "src": "/matrices/zeromatrice.jpg",
+        "alt": "Imagen 29",
+        "title": "Zero",
+        "miniImage1": "src/assets/mini-images/healer.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 30,
+        "src": "/matrices/tsubasamatrice.jpg",
+        "alt": "Imagen 30",
+        "title": "Tsubasa",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/frostelement.jpg"
+    },
+    {
+        "id": 31,
+        "src": "/matrices/shiromatrice.jpg",
+        "alt": "Imagen 31",
+        "title": "Shiro",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/physicalelement.jpg"
+    },
+    {
+        "id": 32,
+        "src": "/matrices/samirmatrice.jpg",
+        "alt": "Imagen 32",
+        "title": "Samir",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/voltelement.jpg"
+    },
+    {
+        "id": 33,
+        "src": "/matrices/merylmatrice.jpg",
+        "alt": "Imagen 33",
+        "title": "Meryl",
+        "miniImage1": "src/assets/mini-images/tank.jpg",
+        "miniImage2": "src/assets/mini-images/frostelement.jpg"
+    },
+    {
+        "id": 34,
+        "src": "/matrices/kingmatrice.jpg",
+        "alt": "Imagen 34",
+        "title": "King",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 35,
+        "src": "/matrices/humamatrice.jpg",
+        "alt": "Imagen 35",
+        "title": "Huma",
+        "miniImage1": "src/assets/mini-images/tank.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 36,
+        "src": "/matrices/crowmatrice.jpg",
+        "alt": "Imagen 36",
+        "title": "Crow",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/voltelement.jpg"
+    },
+    {
+        "id": 37,
+        "src": "/matrices/cocorittermatrice.jpg",
+        "alt": "Imagen 37",
+        "title": "Cocoritter",
+        "miniImage1": "src/assets/mini-images/healer.jpg",
+        "miniImage2": "src/assets/mini-images/frostelement.jpg"
+    }
+]
