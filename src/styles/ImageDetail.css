@@ -1,0 +1,65 @@
+.imageCaracter {
+    max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Asegura que la altura se ajuste proporcionalmente al ancho */
+    display: block; /* Asegura que las propiedades de ancho y alto funcionen */
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+}
+
+.numero {
+    color: #0685CF; /* Cambia este color por el que desees */
+    font-weight: bold; /* Otras propiedades de estilo según tu preferencia */
+  }
+
+.subtitulo{
+    text-align: center;
+    margin: 15px;
+}
+
+.contenedor{
+    min-height: 100vh;
+    width: 100%
+}
+
+.titulo{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.weapon-effects, .element-resonance, .advancements{
+    display: grid;
+    grid-gap: 10px;
+    margin-left: 40px;
+    margin: 0 300px;
+}
+
+.element-resonance{
+    margin-top: 30px;
+}
+
+.parrafo-weapon{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.stars{
+    margin-bottom: 20px;
+}
+
+.parrafo-weapon{
+    margin-top: 20px
+}
+
+
+
+/* Para dispositivos de escritorio */
+@media (min-width: 768px) {
+    .imageCaracter {
+      max-width: 500px; /* Cambia el ancho máximo para adaptarse a pantallas de escritorio */
+      max-height: 500px;
+    }
+    .titulo{
+        font-size: 40px;
+    }
+  }

@@ -1,15 +1,18 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import './../styles/ImageDetail.css'
+import CharacterDetail from '../components/CharacterDetail';
 
 function ImageDetail() {
+  
   const { imageName } = useParams();
 
   // Utiliza el nombre de la imagen para mostrar los detalles correspondientes
 
   return (
-    <div style={{ height: '100vh' }}>
-      <h1>Detalles de {imageName}</h1>
+    <div style={{ minHeight: "100vh" }}>
+      
+      <CharacterDetail/>
       {/* Resto de los detalles de la imagen */}
     </div>
   );
