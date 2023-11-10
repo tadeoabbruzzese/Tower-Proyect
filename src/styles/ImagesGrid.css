@@ -1,8 +1,10 @@
 .image-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+  margin-left: 40px;
+  margin: 0 200px
+}
   
   .image-item {
     width: 100%;
@@ -16,10 +18,9 @@
   }
 
 .container-characters{
-  height: 800px;
+  min-height: inherit;
   width: 100%;
   padding: 40px;
-  padding-top: 60px;
 }
 
 .titulo{
@@ -54,6 +55,28 @@
   margin: 0;
 }
 
+/* Estilo predeterminado para .image-item y .image-caption */
+.image-item {
+  margin: 10px;
+  transition: background-color 0.3s; /* Agrega una transición suave para el color de fondo */
+}
+
+
+/* Estilo de hover para .image-item */
+.image-item:hover {
+  background-color: rgba(0, 0, 0, 0.5); /* Cambia el color de fondo al pasar el mouse */
+}
+
+/* Estilo de hover para .image-caption */
+.image-item:hover .image-caption {
+  opacity: 1; /* Muestra la información al pasar el mouse */
+}
+
+
+
+
+/* END OF CARDS */
+
 /* ImagesGrid.css */
 
 /* Estilos específicos para las imágenes principales */
@@ -87,6 +110,7 @@
 .title-and-mini h2 {
   margin: 0; /* Elimina el margen del título para ajustar el espaciado */
   padding-left: 10px;
+  font-size: 20px;
 }
 
 /* Estilos para las mini imágenes */

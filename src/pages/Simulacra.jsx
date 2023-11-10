@@ -22,7 +22,7 @@ export function Simulacra(props) {
 
 // CONTAINER
 const Container =styled.div`
-    height: 100vh;
+    min-height: 100vh;
     width: 100%
 
     .container-global{

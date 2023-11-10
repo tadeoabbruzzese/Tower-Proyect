@@ -111,6 +111,11 @@ const linksArray = [
       icon: <GiCoffeeCup />,
       to: "/guides",
     },
+    {
+        label: "Food",
+        icon: <GiCoffeeCup />,
+        to: "/food",
+    }
   ];
 
 const secundarylinksArray = [
@@ -126,11 +131,15 @@ const secundarylinksArray = [
 
 //#region STYLED COMPONENTS
 
-const Container =styled.div`
-    color:${(props)=>props.theme.text};
-    background:${(props)=>props.theme.bg};
-    position: sticky;
-    padding-top: 20px;
+const Container = styled.div`
+  color: ${(props) => props.theme.text};
+  background: ${(props) => props.theme.bg};
+  position: sticky;
+  top: 0; 
+  height: 100vh;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
     .Sidebarbutton{
         position: absolute;
         top: ${V.xxlSpacing};

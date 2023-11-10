@@ -1,0 +1,43 @@
+[{
+    "id": 1,
+    "src": "src/assets/images/feise.jpg",
+    "alt": "Imagen 1",
+    "title": "feise",
+    "weapon": "Heavy Pistil",
+    "weapon_effects": "Fully charged weapons will set the target on fire for 8 seconds with the next attack, causing ongoing damage of 58.00% of ATK every second. Ignited targets receive 50% efficacy from healing.",
+    "flame_resonance": "Increase flame ATK by 20% and flame resistance by 40%. Activate by equipping 2 or more flame weapons. This set effect also works with weapons in the off-hand slot. Effect does not stack with Flame Resonance.",
+    "weapon_passive": "While equipped with Heavy Pistil, after hitting a target with any weapon discharge, deal damage equal to 500% of Flame ATK + 8.4% of Max HP + 300% of all elemental resistance + 1,000% of crit. While in combat, for every 0.5 seconds elapsed, the next damage inflicted by Quick Cut will be doubled, up to a maximum of 30 times. If there are multiple instances of Explosive Flame - Quick Cut damage, the highest initial value will be used for calculation. Explosive Flame - Quick Cut is regarded as discharge damage, and if 1 frost/volt/physical weapon is equipped, increase Explosive Flame - Quick Cut damage by 2.5 times. Additionally, the damage inflicted by Explosive Flame - Quick Cut is not affected by buff or debuff effects except from the effects from Titan equipment, and cannot trigger additional attack effects.",
+    "description": "saraza",
+    "advancements": {
+        "a1": "Increase the base multiplier of Heartburn damage to 120%, and if you have inflicted more than one Heartburn status while in combat, increase the base multiplier of all Heartburn damage to the current highest base multiplier.",
+        "a2": "Increase the current weapon's base ATK growth by 16%.",
+        "a3": "Increase the number of Colorful Illusions on the field to 2. When Soaring hits a target, generate an additional Colorful Illusion.",
+        "a4": "Increase the current weapon's base ATK growth by 32%.",
+        "a5": "For every Colorful Illusion or Lotus Petal in the Mirage, increase Heartburn damage by an additional 15%. Reduce endurance consumption by 75% for each Lotus Petal in the Mirage.",
+        "a6": "Increase the base multiplier of Heart Erosion damage to 900% of ATK, double the shatter effectiveness, and adds a 15% chance of inflicting a 65% slow effect (ineffective against BOSS enemies and unavailable in the Apex League) to the target, lasting for 2 seconds."
+    },
+    "miniImage1": "src/assets/mini-images/dps.jpg",
+    "miniImage2": "src/assets/mini-images/fireelement.jpg"
+},
+{
+    "id": 2,
+    "src": "src/assets/images/mimi.jpg",
+    "alt": "Imagen 2",
+    "title": "Mimi",
+    "weapon": "Meng Zhang",
+    "weapon_effects": "When the weapon is fully charged, the next attack will paralyze targets for 1 second and electrify them for 6 seconds, negating all buffs and dealing damage equal to 144.00% of ATK. Targets can't receive any buffs for the next 6 seconds.",
+    "volt_resonance": "Increase Volt ATK by 15% and Volt Resistance by 25%. Activate by equipping 2 or more Volt weapons. This set effect works in the off-hand slot. Cannot stack with effects of the same type.",
+    "weapon_passive": "When Meng Zhang hits any attack, it will deal damage equal to 1,875% of volt ATK + 31% * own maximum HP + 1,125% * the sum of all elemental resistances + 3, 750% * crit rate to nearby targets , can be triggered at most once every 1.5 seconds, and volt damage is regarded as normal attack damage. If a non-volt weapon is equipped, volt damage will be increased to 2.5 times. Additionally, volt damage is not affected by damage-increasing effects other than the rare attributes of Titan equipment, nor will it trigger additional attack effects.",
+    "description": "saraza",
+    "advancements": {
+        "a1": "[Thunderblast] summons 2 azure dragons at once, each of which restores 20% of the summoner's HP.Damage from [Thunderblast] and azure dragons is increased by 50%.The character receives 3 stacks of Azure Dragon Power when using [Terrifying Moon] and 1 stack of Azure Dragon Power when using any other skill of a volt weapon.",
+        "a2": "Increase the current weapon's base ATK growth by 16%.",
+        "a3": "Azure Dragon: The cooldown of every volt weapon skill is reduced by 33%, and it is no longer affected by other cleaning, reset, and changing the cooldown time (with the exception of Fenrir's skill).Increases the damage from the skills of every volt weapon by 30%.",
+        "a4": "Increase the current weapon's base ATK growth by 32%.",
+        "a5": "When taking lethal damage, the character resists it and will be immune to further damage for a short period of time. Cooldown: 60 seconds.When the Spirit Power Resonance is active, Mimi's discharge skill will attract all non-boss enemies (ignoring the Hyperbody effect).When the Spirit Power Resonance is active and the character is in a team, every 6 seconds of using [Thunderblast] creates a Lightning Time Chapter that weaves into a grid that can block movement and damage from enemy bullets. Each Chapter of Lightning Time exists for 20 seconds.",
+        "a6": "Increases electrical damage by 15% and base damage by 25% after applying [Terrifying Moon]. The effect lasts 30 seconds and cannot be folded."
+    },
+    "miniImage1": "src/assets/mini-images/dps.jpg",
+    "miniImage2": "src/assets/mini-images/voltelement.jpg"
+}
+]

@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "src": "src/assets/images/yanmiao.jpg",
+        "alt": "Imagen 1",
+        "title": "Yan Miao",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/zekedual.jpg",
+        "miniTag": "CN"
+    },
+    {
+        "id": 2,
+        "src": "src/assets/images/nanyin.jpg",
+        "alt": "Imagen 2",
+        "title": "Nan Yin",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/alteredelement.jpg",
+        "miniTag": "CN"
+    },
+    {
+        "id": 3,
+        "src": "src/assets/images/linghan.jpg",
+        "alt": "Imagen 3",
+        "title": "Ling Han",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/frostelement.jpg"
+    },
+    {
+        "id": 4,
+        "src": "src/assets/images/feise.jpg",
+        "alt": "Imagen 4",
+        "title": "Feise",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 5,
+        "src": "src/assets/images/mimi1.jpg",
+        "alt": "Imagen 5",
+        "title": "Mimi",
+        "miniImage1": "src/assets/mini-images/tank.jpg",
+        "miniImage2": "src/assets/mini-images/voltelement.jpg"
+    },
+    {
+        "id": 6,
+        "src": "src/assets/images/zeke.jpg",
+        "alt": "Imagen 6",
+        "title": "Zeke",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/zekedual.jpg"
+    },
+    {
+        "id": 7,
+        "src": "src/assets/images/yulan.jpg",
+        "alt": "Imagen 7",
+        "title": "Yulan",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/frostelement.jpg"
+    },
+    {
+        "id": 8,
+        "src": "src/assets/images/lihuo.jpg",
+        "alt": "Imagen 8",
+        "title": "Lihuo",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 9,
+        "src": "src/assets/images/rubilia.jpg",
+        "alt": "Imagen 9",
+        "title": "Rubilia",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/voltelement.jpg"
+    },
+    {
+        "id": 10,
+        "src": "src/assets/images/gnono.jpg",
+        "alt": "Imagen 10",
+        "title": "Gnonno",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/physicalelement.jpg"
+    },
+    {
+        "id": 11,
+        "src": "src/assets/images/fiona.jpg",
+        "alt": "Imagen 11",
+        "title": "Fiona",
+        "miniImage1": "src/assets/mini-images/healer.jpg",
+        "miniImage2": "src/assets/mini-images/alteredelement.jpg"
+    },
+    {
+        "id": 12,
+        "src": "src/assets/images/icarus.jpg",
+        "alt": "Imagen 12",
+        "title": "Icarus",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/frostelement.jpg"
+    },
+    {
+        "id": 13,
+        "src": "src/assets/images/lan.jpg",
+        "alt": "Imagen 13",
+        "title": "Lan",
+        "miniImage1": "src/assets/mini-images/tank.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 14,
+        "src": "src/assets/images/fenrir.jpg",
+        "alt": "Imagen 14",
+        "title": "Fenrir",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/voltelement.jpg"
+    },
+    {
+        "id": 15,
+        "src": "src/assets/images/umi.jpg",
+        "alt": "Imagen 15",
+        "title": "Umi",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/physicalelement.jpg"
+    },
+    {
+        "id": 16,
+        "src": "src/assets/images/alyss.jpg",
+        "alt": "Imagen 16",
+        "title": "Alyss",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/frostelement.jpg"
+    },
+    {
+        "id": 17,
+        "src": "src/assets/images/annabella.jpg",
+        "alt": "Imagen 17",
+        "title": "Anabella",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 18,
+        "src": "src/assets/images/tianlang.jpg",
+        "alt": "Imagen 18",
+        "title": "Tian Lang",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/voltelement.jpg"
+    },
+    {
+        "id": 19,
+        "src": "src/assets/images/lyra.jpg",
+        "alt": "Imagen 19",
+        "title": "Lyra",
+        "miniImage1": "src/assets/mini-images/healer.jpg",
+        "miniImage2": "src/assets/mini-images/physicalelement.jpg"
+    },
+    {
+        "id": 20,
+        "src": "src/assets/images/lin.jpg",
+        "alt": "Imagen 20",
+        "title": "Lin",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/alteredelement.jpg"
+    },
+    {
+        "id": 21,
+        "src": "src/assets/images/sakifuwa.jpg",
+        "alt": "Imagen 21",
+        "title": "Saki Fuwa",
+        "miniImage1": "src/assets/mini-images/tank.jpg",
+        "miniImage2": "src/assets/mini-images/frostelement.jpg"
+    },
+    {
+        "id": 22,
+        "src": "src/assets/images/ruby.jpg",
+        "alt": "Imagen 22",
+        "title": "Ruby",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 23,
+        "src": "src/assets/images/frigg.jpg",
+        "alt": "Imagen 23",
+        "title": "Frigg",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/frostelement.jpg"
+    },
+    {
+        "id": 24,
+        "src": "src/assets/images/nemesis.jpg",
+        "alt": "Imagen 24",
+        "title": "Nemesis",
+        "miniImage1": "src/assets/mini-images/healer.jpg",
+        "miniImage2": "src/assets/mini-images/voltelement.jpg"
+    },
+    {
+        "id": 25,
+        "src": "src/assets/images/marc.jpg",
+        "alt": "Imagen 25",
+        "title": "Marc",
+        "miniImage1": "src/assets/mini-images/tank.jpg",
+        "miniImage2": "src/assets/mini-images/physicalelement.jpg",
+        "miniTag": "CN"
+    },
+    {
+        "id": 26,
+        "src": "src/assets/images/bayueki.jpg",
+        "alt": "Imagen 26",
+        "title": "Bayuekui",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/voltelement.jpg",
+        "miniTag": "CN"
+    },
+    {
+        "id": 27,
+        "src": "src/assets/images/cobaltb.jpg",
+        "alt": "Imagen 27",
+        "title": "Cobalt B",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 28,
+        "src": "src/assets/images/claudia.jpg",
+        "alt": "Imagen 28",
+        "title": "Claudia",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/physicalelement.jpg"
+    },
+    {
+        "id": 29,
+        "src": "src/assets/images/zero.jpg",
+        "alt": "Imagen 29",
+        "title": "Zero",
+        "miniImage1": "src/assets/mini-images/healer.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 30,
+        "src": "src/assets/images/tsubasa.jpg",
+        "alt": "Imagen 30",
+        "title": "Tsubasa",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/frostelement.jpg"
+    },
+    {
+        "id": 31,
+        "src": "src/assets/images/shiro.jpg",
+        "alt": "Imagen 31",
+        "title": "Shiro",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/physicalelement.jpg"
+    },
+    {
+        "id": 32,
+        "src": "src/assets/images/samir.jpg",
+        "alt": "Imagen 32",
+        "title": "Samir",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/voltelement.jpg"
+    },
+    {
+        "id": 33,
+        "src": "src/assets/images/meryl.jpg",
+        "alt": "Imagen 33",
+        "title": "Meryl",
+        "miniImage1": "src/assets/mini-images/tank.jpg",
+        "miniImage2": "src/assets/mini-images/frostelement.jpg"
+    },
+    {
+        "id": 34,
+        "src": "src/assets/images/king.jpg",
+        "alt": "Imagen 34",
+        "title": "King",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 35,
+        "src": "src/assets/images/huma.jpg",
+        "alt": "Imagen 35",
+        "title": "Huma",
+        "miniImage1": "src/assets/mini-images/tank.jpg",
+        "miniImage2": "src/assets/mini-images/fireelement.jpg"
+    },
+    {
+        "id": 36,
+        "src": "src/assets/images/crow.jpg",
+        "alt": "Imagen 36",
+        "title": "Crow",
+        "miniImage1": "src/assets/mini-images/dps.jpg",
+        "miniImage2": "src/assets/mini-images/voltelement.jpg"
+    },
+    {
+        "id": 37,
+        "src": "src/assets/images/cocoritter.jpg",
+        "alt": "Imagen 37",
+        "title": "Cocoritter",
+        "miniImage1": "src/assets/mini-images/healer.jpg",
+        "miniImage2": "src/assets/mini-images/frostelement.jpg"
+    }
+]
