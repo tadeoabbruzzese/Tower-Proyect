@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import MatricesDetail from '../components/MatricesDetail'
+import '../styles/ImagesGrid.css';
 export function Matrices(props) {
     
     return(
@@ -20,10 +21,10 @@ export function Matrices(props) {
 }
 const Container =styled.div`
     min-height: 100vh;
-    width: 100%
+    width: 100%;
 
     .container-global{
-        width: 80%;
+        width: 100%;
         height: inherit;
         
         
@@ -40,12 +41,5 @@ const Container =styled.div`
         padding: 20px;
     }
 
-    .simulacra-detail{
-        
-        padding: 0 30px;
-        padding: 0 25%;
-        font-size: 20px
-        
-
-    }
+    
 `

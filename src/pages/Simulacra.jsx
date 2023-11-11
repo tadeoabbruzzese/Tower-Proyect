@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Tittles } from "../components/Tittles";
 import ImageGrid from "../components/ImageGrid";
+import '../styles/ImagesGrid.css';
 export function Simulacra(props) {
     
     return(
@@ -22,34 +23,28 @@ export function Simulacra(props) {
 
 // CONTAINER
 const Container =styled.div`
-    min-height: 100vh;
-    width: 100%
+min-height: 100vh;
+width: 100%;
 
-    .container-global{
-        width: 80%;
-        height: inherit;
-        
-        
-    }
 
-    .simulacra-container{
-        height: 30vh;
-        
-    }
+.container-global{
+    width: 100%;
+    height: inherit;
+    
+    
+}
 
-    .simulacra-tittle{
-        display: flex;
-        justify-content: center;
-        padding: 20px;
-    }
+.simulacra-container{
+    height: 30vh;
+    
+}
 
-    .simulacra-detail{
-        
-        padding: 0 30px;
-        padding: 0 25%;
-        font-size: 20px
-        
+.simulacra-tittle{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 
-    }
+
 `
 

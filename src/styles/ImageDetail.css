@@ -53,13 +53,32 @@
 
 
 
-/* Para dispositivos de escritorio */
-@media (min-width: 768px) {
+/* Para dispositivos móviles */
+@media (max-width: 767px) {
     .imageCaracter {
-      max-width: 500px; /* Cambia el ancho máximo para adaptarse a pantallas de escritorio */
-      max-height: 500px;
+        max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
+        height: auto; /* Asegura que la altura se ajuste proporcionalmente al ancho */
     }
-    .titulo{
-        font-size: 40px;
+
+    .titulo {
+        font-size: 20px; /* Reducción del tamaño del título para pantallas más pequeñas */
+        margin: 10px; /* Ajuste del margen para dispositivos móviles */
     }
-  }
+
+    .weapon-effects,
+    .element-resonance,
+    .advancements {
+        display: block; /* Cambio en la visualización para ocupar el ancho completo */
+        margin: 10px; /* Ajuste del margen para dispositivos móviles */
+    }
+
+    .parrafo-weapon {
+        font-size: 16px; /* Reducción del tamaño del texto */
+        margin: 10px; /* Ajuste del margen para dispositivos móviles */
+        font-weight: normal; /* Cambio en el peso del texto */
+    }
+
+    .stars {
+        margin-bottom: 10px; /* Ajuste del margen inferior */
+    }
+}

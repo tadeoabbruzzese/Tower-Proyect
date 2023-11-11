@@ -118,3 +118,116 @@
   width: 30px; /* Tamaño de las mini imágenes */
   height: 30px; /* Tamaño de las mini imágenes */ /* Espacio entre el título y las mini imágenes */
 }
+
+.simulacra-detail {
+  font-size: 16px; /* Ajuste de tamaño de fuente para escritorio */
+  line-height: 1.6; /* Aumento del espacio entre líneas */
+  padding: 20px; /* Incremento del espaciado */
+  text-align: center; /* Centrado del texto */
+  max-width: 600px; /* Limitar el ancho del texto */
+  margin: 0 auto; /* Centrar en el medio de la pantalla */
+}
+
+@media (max-width: 767px)  {
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Tamaños más pequeños para columnas */
+    grid-gap: 5px; /* Reducción del espacio entre las imágenes */
+    margin: 0 10px; /* Márgenes más pequeños */
+  }
+  
+  .image-item {
+    width: 100%;
+    text-align: center;
+    padding: 5px; /* Reducción del espaciado */
+  }
+  
+  .image-item img {
+    max-width: 100px; /* Tamaño más pequeño para las imágenes */
+    max-height: 150px; /* Tamaño más pequeño para las imágenes */
+  }
+  
+  .container-characters {
+    min-height: inherit;
+    width: 100%;
+    padding: 20px; /* Reducción del espaciado */
+  }
+  
+  .titulo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-item {
+    margin: 5px; /* Reducción del espaciado */
+  }
+  
+  .image-caption {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px; /* Reducción del espaciado */
+  }
+  
+  .image-caption h2, .image-caption p {
+    margin: 0;
+  }
+  
+  .image-item {
+    margin: 5px; /* Reducción del espaciado */
+    transition: background-color 0.3s;
+  }
+  
+  .image-item:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .image-item:hover .image-caption {
+    opacity: 1;
+  }
+  
+  .main-image {
+    width: 100px; /* Tamaño más pequeño para las imágenes principales */
+    height: 100px; /* Tamaño más pequeño para las imágenes principales */
+    object-fit: cover;
+  }
+  
+  .mini-images {
+    display: flex;
+    margin-bottom: 5px; /* Reducción del espacio entre las mini imágenes */
+  }
+  
+  .mini-image {
+    width: 20px; /* Tamaño más pequeño para las mini imágenes */
+    height: 20px; /* Tamaño más pequeño para las mini imágenes */
+  }
+  
+  .title-and-mini {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .title-and-mini h2 {
+    margin: 0;
+    padding-left: 5px; /* Reducción del espacio entre el título y las mini imágenes */
+    font-size: 16px; /* Tamaño más pequeño para el título */
+  }
+  
+  .title-and-mini img.mini-image {
+    width: 20px; /* Tamaño más pequeño para las mini imágenes */
+    height: 20px; /* Tamaño más pequeño para las mini imágenes */
+  }
+  
+  .simulacra-detail {
+    font-size: 14px; /* Tamaño de fuente más pequeño para dispositivos móviles */
+    line-height: 1.4; /* Aumenta el espacio entre líneas */
+    padding: 10px; /* Reducción del espaciado */
+    text-align: center;
+  }
+  
+  
+}

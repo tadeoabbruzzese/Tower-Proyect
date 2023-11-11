@@ -1,3 +1,4 @@
+import React, { useContext, useEffect } from 'react';
 import styled from "styled-components";
 import logo from "../assets/react.svg";
 import {V} from "../styles/Variables";
@@ -5,18 +6,41 @@ import { AiOutlineLeft, AiFillHome } from "react-icons/ai";
 import { GiAbstract050, GiArchiveResearch, Gi3DGlasses, GiCoffeeCup, GiCometSpark, GiContract, GiDatabase } from "react-icons/gi";
 import { BsDiscord, BsDice3Fill } from "react-icons/bs"
 import { NavLink, useLocation } from "react-router-dom";
-import { useContext } from "react";
+
 import { ThemeContext } from "../App";
+import './../styles/MatriceDetail.css';
 
 export function Sidebar({ sidebarOpen, setSidebarOpen }) {
-    
-    const ModSidebaropen = () =>{
-        setSidebarOpen(!sidebarOpen);
-    }
-    const{setTheme, theme} = useContext(ThemeContext)
-    const CambiarTheme = () =>{
-        setTheme((theme)=>(theme ==="light" ?"dark" : "light"))
-      }
+    const { setTheme, theme } = useContext(ThemeContext);
+  
+    const ModSidebaropen = () => {
+      setSidebarOpen(!sidebarOpen);
+    };
+  
+    useEffect(() => {
+        const handleInitialLoad = () => {
+            const isMobile = window.innerWidth <= 768;
+            setSidebarOpen(!isMobile);
+        };
+
+        handleInitialLoad(); // Al montar, realiza la comprobación inicial
+
+        const handleResize = () => {
+            const isMobile = window.innerWidth <= 768;
+            setSidebarOpen(!isMobile);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []); // Se ejecuta solo al montar el componente
+  
+    const CambiarTheme = () => {
+      setTheme((theme) => (theme === 'light' ? 'dark' : 'light'));
+    };
+  
     return(
     <Container isOpen={sidebarOpen} themeUse={theme}>
         <button className="Sidebarbutton"
@@ -25,7 +49,9 @@ export function Sidebar({ sidebarOpen, setSidebarOpen }) {
         </button>
         <div className="Logocontent">
             <div className="imgcontent">
+            <a href="/">
             <img src="/background/gordomarron.jpg" alt="Logo Tower of GG" />
+            </a>
             </div>
             <h2>
                 Tower Of GG
@@ -174,6 +200,11 @@ const Container = styled.div`
         font-family:inhertit;
         outline: none;
     }
+    @media (max-width: 767px) {
+        .Sidebarbutton {
+            display: none; 
+        }
+    }
     .Logocontent{
         display: flex;
         justify-content: center;
@@ -302,7 +333,9 @@ const Container = styled.div`
                         }
                     }
                 }
+                
             }
+        
 `
 const Divider = styled.div`
     height: 1px;

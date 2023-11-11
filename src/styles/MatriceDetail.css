@@ -24,3 +24,39 @@
 .container-4p{
     margin-top: 15px
 }
+
+
+@media (max-width: 767px) {
+    .titulo-matrice {
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px; /* Espaciado para mayor legibilidad */
+    }
+    
+    .matrice-src {
+        max-width: 100%;
+        height: auto; /* Ajusta la altura de la imagen proporcionalmente */
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .matriz-effect {
+        display: block; /* Cambiado a bloque para dispositivos móviles */
+        text-align: center; /* Centra los elementos */
+        margin: 0 auto;
+        padding: 10px;
+    }
+    
+    .two-pieces,
+    .matriz-effect {
+        font-style: italic;
+    }
+    
+    .container-4p {
+        margin-top: 15px;
+        padding: 10px; /* Espaciado adicional */
+    }
+    .titulo{
+        margin-top: 3rem
+    }
+}

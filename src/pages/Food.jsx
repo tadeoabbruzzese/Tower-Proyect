@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import '../styles/ImagesGrid.css';
 
 export function Food(props) {
   return (
@@ -19,7 +20,7 @@ const Container = styled.div`
   width: 100%;
 
   .container-global {
-    width: 80%;
+    width: 100%;
     height: inherit;
   }
 
@@ -33,9 +34,5 @@ const Container = styled.div`
     padding: 20px;
   }
 
-  .simulacra-detail {
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-  }
+
 `;
