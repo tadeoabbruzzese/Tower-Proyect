@@ -1,11 +1,12 @@
 import { Routes, Route} from "react-router-dom";
 import { Simulacra } from "../pages/Simulacra";
-import { Matrices } from "../pages/Matrices";
 import { Tierlist} from "../pages/Tierlist";
-import { Relics } from "../pages/Relics"
-import { Guides } from "../pages/Guides"
+import { Relics } from "../pages/Relics";
+import { Matrices } from "../pages/Matrices";
+import { Guides } from "../pages/Guides";
 import ImageDetail from "../pages/ImageDetail"; // Importa el componente con el nombre correcto
 import { Food } from "../pages/Food";
+import MatrixDetalle from "../pages/MatrixDetalle";
 
 
 export function MyRoutes() {
@@ -22,6 +23,7 @@ Set effects will only be active when using the weapon that the matrices are atta
                 <Route path="/guides" element={<Guides tittle="Guides" p="The best guides made BY Tynnox"/>}/>
                 <Route path="/food" element={<Food tittle="Food" p="The best guides made BY Tynnox"/>}/>
                 <Route path="/simulacra/:imageName" element={<ImageDetail />} />
+                <Route path="/matrices/:matrizName" element={<MatrixDetalle />} />
             </Routes>
     );
 }

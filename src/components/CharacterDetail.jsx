@@ -51,7 +51,7 @@ function ImageDetail() {
                 <ul className='advancements'>
                   {Object.keys(characterDetails.advancements).map((key) => (
                     <p key={key} className='stars'>
-                      {key} <HighlightedNumbers text={characterDetails.advancements[key]} />
+                       <HighlightedNumbers text={characterDetails.advancements[key]} />
                      
                     </p>
                   ))}

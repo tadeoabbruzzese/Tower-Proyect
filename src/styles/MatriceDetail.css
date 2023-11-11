@@ -1,0 +1,26 @@
+.titulo-matrice{
+    text-align: center;
+}
+
+.matrice-src{
+    max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: 200px; /* Asegura que la altura se ajuste proporcionalmente al ancho */
+    display: block; /* Asegura que las propiedades de ancho y alto funcionen */
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+
+}
+
+.matriz-effect{
+    display: grid;
+    grid-gap: 10px;
+    margin-left: 40px;
+    margin: 0 400px;
+}
+
+.two-pieces, .matriz-effect{
+    font-style: italic;
+}
+
+.container-4p{
+    margin-top: 15px
+}

@@ -29,7 +29,7 @@ function MatricesDetail() {
   return (
     <div className="image-grid">
       {imagesData.map((image) => (
-        <Link to={`/simulacra/${image.title}`} key={image.id}>
+        <Link to={`/matrices/${image.title}`} key={image.id}>
           <div className="image-item">
             <div className="image-box">
               <img src={image.src} alt={image.alt} className="main-image" style={{paddingBottom: '20px'}} />
