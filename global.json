@@ -31,12 +31,12 @@
     "element_resonance": "Last Knock: Increase ATK by 30%. Activate by equipping 3 altered weapons. This set effect works in the off-hand slot.",
     "weapon_passive": "When landing any hit with Equilibrium, it deals damage to nearby targets equal to 2,250% of physical ATK plus 38% of the Wanderer's Max HP plus 1.350% of the sum of all the Wanderer's resistance types plus 4,500% of crit. This effect can be triggered up to 1 time every 1.5 seconds. The Flying Blade damage is counted as normal attack damage. If there is 1 frost/volt weapon of any kind equipped, Flying Blade damage is multiplied by 2.5 times. In addition, Flying Blade damage is not affected by any damage boost effects except from titan equipment's rare stats, and won't trigger additional attack effects.",
     "advancements": {
-        "1★": "1★ The number of Flaming Daggers received from Empyrean Rotation is increased to 4, and the maximum Frequency of Flaming Dagger use is reduced to once every 1.8 seconds.",
+        "1★": "1★ Darkness damage buff is further increased by 1% for every 1 advancement level of Darkness-enhanced weapon. Hyperspace damage's base multiplier is increased to 0.06% of total wanderer damage in Hyperspace (not including Shadow damage) plus 4,000% of ATK.",
         
-        "3★": "3★ Wanderer ignores 30% of the target's physical and flame resistances [the total value of ignoring resistance to a particular element cannot exceed 50%).",
+        "3★": "3★ Shadow inherits an additional 50% of the wanderer's ATK. If the wanderer is not in Trance state, when the wanderer takes lethal damage, the Shadow disappears and the wanderer becomes invulnerable for a short period of time. This effect triggers once every 60 seconds, with other similar effects triggering first and works in the off-hand slot.",
        
-        "5★": "5★ When Flaming Dagger is triggered, wanderer gains a shield equal to 30% of Max HP for 20 seconds. The shields gained cannot exceed 30% of Max HP [shields that exceed this value will be converted into healing at the rate of 50% of the shield].",
-        "6★": "6★ Flaming Daggers damage is increased to 8,800% and the Final damage buff after a Flaming Dagger is triggered is further increased by 16%."
+        "5★": "5★ In Hyperspace, you ignore 20% of target's elemental resistance. The limit of created Abyss Flows is increased to 3",
+        "6★": "6★ Hyperspace damage's base multiplier is increased to 0.12% of total wanderer damage in Hyperspace [not including Shadow damage] plus 4,000% of ATK."
     },
     "matrice_src": "/matrices/nanyinmatrice.jpg",
     "matrice_2p": "Increases all attack types by 20%/24%/28%/32%. Shadow inherits an additional 30% of the wanderer's ATK. The first time you deal damage in combat, 1,000 weapon charge is granted. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
