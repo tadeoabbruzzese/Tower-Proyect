@@ -33,10 +33,10 @@
     "advancements": {
         "1★": "1★ The number of Flaming Daggers received from Empyrean Rotation is increased to 4, and the maximum Frequency of Flaming Dagger use is reduced to once every 1.8 seconds.",
         
-        "3★": "Wanderer ignores 30% of the target's physical and flame resistances [the total value of ignoring resistance to a particular element cannot exceed 50%).",
+        "3★": "3★ Wanderer ignores 30% of the target's physical and flame resistances [the total value of ignoring resistance to a particular element cannot exceed 50%).",
        
-        "5★": "When Flaming Dagger is triggered, wanderer gains a shield equal to 30% of Max HP for 20 seconds. The shields gained cannot exceed 30% of Max HP [shields that exceed this value will be converted into healing at the rate of 50% of the shield].",
-        "6★": "Flaming Daggers damage is increased to 8,800% and the Final damage buff after a Flaming Dagger is triggered is further increased by 16%."
+        "5★": "5★ When Flaming Dagger is triggered, wanderer gains a shield equal to 30% of Max HP for 20 seconds. The shields gained cannot exceed 30% of Max HP [shields that exceed this value will be converted into healing at the rate of 50% of the shield].",
+        "6★": "6★ Flaming Daggers damage is increased to 8,800% and the Final damage buff after a Flaming Dagger is triggered is further increased by 16%."
     },
     "matrice_src": "/matrices/nanyinmatrice.jpg",
     "matrice_2p": "Increases all attack types by 20%/24%/28%/32%. Shadow inherits an additional 30% of the wanderer's ATK. The first time you deal damage in combat, 1,000 weapon charge is granted. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
