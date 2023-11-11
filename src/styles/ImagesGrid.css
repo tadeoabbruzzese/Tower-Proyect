@@ -83,13 +83,21 @@
 .main-image {
   width: 200px; /* Tamaño fijo para todas las imágenes principales */
   height: 200px; /* Tamaño fijo para todas las imágenes principales */
+  margin-bottom: 30px;
   object-fit: cover; /* Para asegurarte de que las imágenes mantengan la relación de aspecto y se ajusten al tamaño especificado sin distorsión. */
+}
+
+.image-matriz{
+  width: 200px; /* Tamaño fijo para todas las imágenes principales */
+  height: 200px; /* Tamaño fijo para todas las imágenes principales */
+  object-fit: cover; 
 }
 
 /* Estilos para las mini imágenes */
 .mini-images {
   display: flex;
-  margin-bottom: 10px;
+  justify-content: center;
+  margin-bottom: 5px;
 }
 
 /* Estilos para las mini imágenes */
@@ -101,9 +109,10 @@
 
 /* Estilos para la caja de mini imágenes junto al título */
 .title-and-mini {
-  display: flex;
-  justify-content: space-around; /* Alineación horizontal */
-  align-items: center; /* Alineación vertical */
+  display: block;
+  /* display: flex;
+  justify-content: space-around; 
+  align-items: center; */
 }
 
 /* Estilos para el título */
@@ -117,6 +126,12 @@
 .title-and-mini img.mini-image {
   width: 30px; /* Tamaño de las mini imágenes */
   height: 30px; /* Tamaño de las mini imágenes */ /* Espacio entre el título y las mini imágenes */
+}
+
+.matriz{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
 }
 
 .simulacra-detail {
@@ -193,10 +208,12 @@
     width: 100px; /* Tamaño más pequeño para las imágenes principales */
     height: 100px; /* Tamaño más pequeño para las imágenes principales */
     object-fit: cover;
+    margin-bottom: 0px;
   }
   
   .mini-images {
     display: flex;
+    justify-content: center;
     margin-bottom: 5px; /* Reducción del espacio entre las mini imágenes */
   }
   
@@ -206,21 +223,30 @@
   }
   
   .title-and-mini {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: block;
+    /* display: flex; */
+    /* justify-content: space-around;
+    align-items: center; */
   }
   
   .title-and-mini h2 {
     margin: 0;
     padding-left: 5px; /* Reducción del espacio entre el título y las mini imágenes */
-    font-size: 16px; /* Tamaño más pequeño para el título */
+    font-size: 14px; /* Tamaño más pequeño para el título */
   }
   
   .title-and-mini img.mini-image {
     width: 20px; /* Tamaño más pequeño para las mini imágenes */
     height: 20px; /* Tamaño más pequeño para las mini imágenes */
   }
+
+  .image-matriz{
+    width: 100px; /* Tamaño más pequeño para las imágenes principales */
+    height: 100px; /* Tamaño más pequeño para las imágenes principales */
+    object-fit: cover;
+    margin-bottom: 0px;
+  }
+  
   
   .simulacra-detail {
     font-size: 14px; /* Tamaño de fuente más pequeño para dispositivos móviles */

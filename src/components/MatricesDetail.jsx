@@ -32,7 +32,7 @@ function MatricesDetail() {
         <Link to={`/matrices/${image.title}`} key={image.id}>
           <div className="image-item">
             <div className="image-box">
-              <img src={image.src} alt={image.alt} className="main-image" style={{paddingBottom: '20px'}} />
+              <img src={image.src} alt={image.alt} className="main-image" />
               {shouldShowThirdMiniImage(image.title) && (
                 <div className="mini-tag" style={{ backgroundColor: 'red', color: 'white', fontSize: '20px',width: '40px', height: '40px', position: 'absolute', top: '0', left: '0' }}>
                   CN
