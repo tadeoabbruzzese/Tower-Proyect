@@ -25,7 +25,7 @@ export function Sidebar({ sidebarOpen, setSidebarOpen }) {
         </button>
         <div className="Logocontent">
             <div className="imgcontent">
-                <img src={logo}/>
+            <img src="/background/gordomarron.jpg" alt="Logo Tower of GG" />
             </div>
             <h2>
                 Tower Of GG
@@ -140,6 +140,15 @@ const Container = styled.div`
   padding-top: 20px;
   display: flex;
   flex-direction: column;
+  .Logocontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgcontent {
+    margin-bottom: 10px; /* Ajusta este margen según sea necesario */
+}
     .Sidebarbutton{
         position: absolute;
         top: ${V.xxlSpacing};
