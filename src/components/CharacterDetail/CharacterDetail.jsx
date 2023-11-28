@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import './../styles/ImageDetail.css';
-import HighlightedNumbers from '../components/HighlightedNumbers';
+// import '../../styles/ImageDetail.css';
+import './CharacterDetail.css'
+
+import HighlightedNumbers from './HighlightedNumbers';
+import WeaponInfo from '../weapon_data/WeaponInfo';
 
 function ImageDetail() {
   const { imageName } = useParams();
@@ -37,9 +40,15 @@ function ImageDetail() {
         <div className='contenedor'>
           <h2 className="titulo">{characterDetails.title}</h2>
           <img src={characterDetails.src} className="imageCaracter" />
-          <p>{characterDetails.description}</p>
+          <div className="cita-textual">
+            <h3 className='awaken'>Awaken: Laws And Scales</h3>
+          <blockquote>
+            <p className='p-awaken'><i>Final damage is increased by 18%
+            When equipped with Equilibrium, physical damage dealt is increased by 16% against targets below 80% HP. Each equipped physical weapon increases Equilibrium's normal attacks damage by 30%, up to 60%.</i></p>
+          </blockquote>
+          </div>
           {/* Puedes mostrar otros detalles aquí*/}
-          <div>
+          <div className='contenedor-personaje'>
             <h2 className='subtitulo'>Shatter: {characterDetails.shatter} Charge: {characterDetails.charge}</h2>
             <p className='parrafo-weapon'>Weapon Effects</p>
             <p className='weapon-effects'><HighlightedNumbers text={characterDetails.weapon_effects} /></p>
@@ -59,7 +68,10 @@ function ImageDetail() {
               </div>
             )}
           </div>
+
           
+          
+          <WeaponInfo style={{ maxWidth: '600px' }} />
         </div>
         
       ) : (

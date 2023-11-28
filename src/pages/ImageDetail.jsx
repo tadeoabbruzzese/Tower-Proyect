@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import './../styles/ImageDetail.css'
-import CharacterDetail from '../components/CharacterDetail';
+import CharacterDetail from '../components/CharacterDetail/CharacterDetail';
 
 function ImageDetail() {
   

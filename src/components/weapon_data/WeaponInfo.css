@@ -1,0 +1,20 @@
+.weapon-info-table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    table-layout: fixed;
+    margin: 0 auto;
+  }
+  
+  .weapon-info-table th,
+  .weapon-info-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal; /* Permitir el desbordamiento de línea */
+    max-width: 0;
+  }
+  

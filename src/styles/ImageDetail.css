@@ -10,6 +10,8 @@
     font-weight: bold; /* Otras propiedades de estilo según tu preferencia */
   }
 
+
+
 .subtitulo{
     text-align: center;
     margin: 15px;
@@ -25,12 +27,12 @@
     margin: 20px;
 }
 
-.weapon-effects, .element-resonance, .advancements{
+/* .weapon-effects, .element-resonance, .advancements{
     display: grid;
     grid-gap: 10px;
     margin-left: 40px;
     margin: 0 300px;
-}
+} */
 
 .element-resonance{
     margin-top: 30px;

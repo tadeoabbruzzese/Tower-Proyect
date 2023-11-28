@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import './../styles/ImageDetail.css';
 import './../styles/MatriceDetail.css';
-import HighlightedNumbers from './HighlightedNumbers';
+import HighlightedNumbers from '../components/CharacterDetail/HighlightedNumbers';
 
 function MatrixDetail() {
   const { matrizName } = useParams();
