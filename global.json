@@ -19,7 +19,28 @@
     "miniImage1": "src/assets/mini-images/dps.jpg",
     "miniImage2": "src/assets/mini-images/fireelement.jpg",
     "shatter": "16.00",
-    "charge": "12.00"
+    "charge": "12.00",
+    "awaken": "Final damage is increased by 18% When equipped with Equilibrium, physical damage dealt is increased by 16% against targets below 80% HP. Each equipped physical weapon increases Equilibrium's normal attacks damage by 30%, up to 60%.",
+    "awaken_title": "Awaken: Laws And Scales",
+    "release_date": "DECEMBER 19, 2023",
+    "attacks" : [
+        {
+            "name": "Ink Stain Glitter",
+            "description": "While on the ground, use normal attack to launch 6 consecutive attacks. Each attack deals a different amount of damage: First Attack: Deal damage equal to 340% of ATK. Second Attack: Deal damage equal to 733% of ATK.Third Attack: Deal damage equal to 514% of ATK.Fourth Attack: Deal damage equal to 1,701% of ATK. Fifth Attack: Deal damage equal to 928% of ATK. Sixth Attack: Deal damage equal to 1,550% of ATK."
+        },
+        {
+            "name": "Clouds Coloring The Sky",
+            "description": "While airborne, use a regular attack to perform 6 consecutive attacks in mid-air, consuming endurance. Each attack deals a different amount of damage: First Attack: Deal damage equal to 340% of ATK. Second Attack: Deal damage equal to 733% of ATK. Third Attack: Deal damage equal to 514% of ATK. Fourth Attack: Deal damage equal to 1,701% of ATK. Fifth Attack: Deal damage equal to 884% of ATK. Sixth Attack: Deal damage equal to 1,590% of ATK."
+        },
+        {
+            "name": "Peace Within The Universe",
+            "description": "While on the ground, press and hold normal attack after using a second normal attack to trigger Peace Within The Universe. Throws Equilibrium into the ground, creating a double-sided spinning blade that spirals outward and deals damage equal to 1,976% of ATK to the target."
+        },
+        {
+            "name": "Falling Leaves In The Moonlight",
+            "description": "While in the air, press and hold normal attack to trigger Falling Leaves In The Moonlight. Upon landing, deals damage equal to 943% of ATK to targets near the released Equilibrium. When the released Equilibrium reassembles, it slightly pull nearby enemies and deals damage equal to 940% of ATK."
+        }
+    ]
 },
 {
     "id": 2,
@@ -44,7 +65,10 @@
     "miniImage1": "src/assets/mini-images/dps.jpg",
     "miniImage2": "src/assets/mini-images/fireelement.jpg",
     "shatter": "12.00",
-    "charge": "12.00"
+    "charge": "12.00",
+    "awaken": "Increase final damage by 18%. When Black Bamboo is the current active weapon, all elemental damage is increased by 14% for each equipped non-altered weapon.",
+    "awaken_title": "Awaken: Lingering Sound",
+    "release_date": "NOVEMBER 21, 2023"
 },
 {
     "id": 3,

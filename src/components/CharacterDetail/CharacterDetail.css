@@ -33,3 +33,31 @@ blockquote footer {
     max-width: 500px;
     margin: 0 auto
 }
+
+.titulo-principal-personaje {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-del-personaje{
+    font-size: 3em;
+    margin-top: 10px
+}
+
+/* Media Query para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  blockquote {
+      max-width: 100%;
+  }
+
+  .titulo-del-personaje {
+      font-size: 2em;
+  }
+
+  .awaken{
+    font-size: 1.5rem;
+    width: 60%;
+}
+}

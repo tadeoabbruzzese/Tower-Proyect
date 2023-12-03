@@ -38,13 +38,17 @@ function ImageDetail() {
     <div>
       {characterDetails ? (
         <div className='contenedor'>
-          <h2 className="titulo">{characterDetails.title}</h2>
+          <div className="titulo-principal-personaje">
+             <h2 className="titulo-del-personaje">{characterDetails.title}</h2>
+             <h3 className='fecha-de-salida'>{characterDetails.release_date}</h3>
+          </div>
           <img src={characterDetails.src} className="imageCaracter" />
           <div className="cita-textual">
-            <h3 className='awaken'>Awaken: Laws And Scales</h3>
+            <h3 className='awaken'>{characterDetails.awaken_title}</h3>
           <blockquote>
-            <p className='p-awaken'><i>Final damage is increased by 18%
-            When equipped with Equilibrium, physical damage dealt is increased by 16% against targets below 80% HP. Each equipped physical weapon increases Equilibrium's normal attacks damage by 30%, up to 60%.</i></p>
+            <p className='p-awaken'>
+              <i><HighlightedNumbers text={characterDetails.awaken}/> </i>
+            </p>
           </blockquote>
           </div>
           {/* Puedes mostrar otros detalles aquí*/}

@@ -2,9 +2,11 @@ import React from 'react';
 
 function HighlightedNumbers({ text }) {
   const renderTextWithStyledNumbers = () => {
-    const textArray = text.split(/(\d+)/);
+    // Verifica si el texto es una cadena antes de dividirlo
+    const textArray = typeof text === 'string' ? text.split(/(\d+)/) : [text];
 
     return textArray.map((part, index) => {
+      // Si es un número, aplicar el estilo
       if (!isNaN(part)) {
         return <span className="numero" key={index}>{part}</span>;
       } else {
