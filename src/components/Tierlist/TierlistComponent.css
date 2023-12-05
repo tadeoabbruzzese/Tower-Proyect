@@ -1,0 +1,76 @@
+.App {
+    text-align: center;
+    margin: 50px;
+  }
+  
+
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid;
+  }
+    .data-tier{
+    font-size: 3rem;
+  }
+/*   
+  th {
+    background-color: #f2f2f2;
+  } */
+  
+  td {
+    font-size: 2rem;
+  }
+  
+  /* Colores de fondo para cada tier */
+  tr[data-tier='S'] {
+    background-color: #800000; /* Bordo */
+  }
+  
+  tr[data-tier='A'] {
+    background-color: #FFA500; /* Naranja */
+  }
+  
+  tr[data-tier='B'] {
+    background-color: #FFFF00; /* Amarillo */
+  }
+  
+  tr[data-tier='C'] {
+    background-color: #008000; /* Verde */
+  }
+  
+  /* img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+  } */
+  
+  .img-tierlist{
+    width: 75px; /* Ajusta el tamaño según sea necesario */
+  height: 75px;
+  border-radius: 5px;
+  }
+
+.tierList-contenedor{
+    width: 100%;
+}
+
+.tierlist-children {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 20px; /* Ajusta según sea necesario */
+    justify-content: flex-start; /* Alinea los elementos al principio del contenedor */
+    overflow: auto; /* Agrega desplazamiento horizontal si el contenido es demasiado ancho */
+  }
+  
+  .tierlist-children img {
+    width: 120px; /* Ajusta el ancho de las imágenes según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 5px;
+  }
