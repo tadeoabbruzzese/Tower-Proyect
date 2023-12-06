@@ -34,10 +34,6 @@ width: 100%;
     
 }
 
-.simulacra-container{
-    height: 30vh;
-    
-}
 
 .simulacra-tittle{
     display: flex;

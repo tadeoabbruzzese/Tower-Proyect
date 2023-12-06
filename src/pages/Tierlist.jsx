@@ -7,7 +7,7 @@ export function Tierlist(props) {
             <div className="container-global">
                 <div className="simulacra-container">
                     <h1 className="simulacra-tittle">{props.tittle}</h1>
-                    <p className="simulacra-detail"> {props.p}</p>
+                    {/* <p className="simulacra-detail"> {props.p}</p> */}
                 </div>
             </div>
 
