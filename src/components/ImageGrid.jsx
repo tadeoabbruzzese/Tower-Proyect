@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './../styles/ImagesGrid.css';
 import { Link } from 'react-router-dom'; // Importa el componente Link
+import DevNotes from '../components/DevNotes/DevNotes'
+import DevNotesPage from '../pages/DevNotesPage/DevNotesPage';
 
 function shouldShowThirdMiniImage(title) {
   // Lista de títulos que deberían mostrar la tercera mini imagen
@@ -26,9 +28,12 @@ function ImageGrid() {
       .catch((error) => console.error('Error al cargar el JSON', error));
   }, []);
 
+  const reversedImagesData = imagesData.slice().reverse();
+
   return (
-    <div className="image-grid">
-      {imagesData.map((image) => (
+    <div className="contenedorSimulacrum">
+      <div className="image-grid">
+       {reversedImagesData.map((image) => (
         <Link to={`/simulacra/${image.title}`} key={image.id}>
           <div className="image-item">
             <div className="image-box">
@@ -52,6 +57,19 @@ function ImageGrid() {
           </div>
         </Link>
       ))}
+      </div>
+
+      <div className="sectionDevs">
+        
+        <h2 className='site-news'>Site News</h2>
+        <br />
+        <div className="containerCards">
+                 <DevNotes title="DevNotes patch 1.0" description="New Features: -Add the button to change the..." update="Dec 17, 2023, 09:27 PM" />
+                 
+                 
+        </div>
+      </div>
+
     </div>
   );
 }

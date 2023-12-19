@@ -6,6 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Sidebar } from "./components/Sidebar";
 import { Light, Dark } from "./styles/Themes";
 import { ThemeProvider } from "styled-components";
+import ScrollToTop from "./components/ScrollToTop";
 export const ThemeContext = React.createContext(null);
 function App() {
   const [theme, setTheme] = useState("light");
@@ -22,6 +23,7 @@ function App() {
               <Sidebar sidebarOpen={sidebarOpen}
               setSidebarOpen={setSidebarOpen}
               />
+              <ScrollToTop />
               <MyRoutes />
             </Container>
           </BrowserRouter>

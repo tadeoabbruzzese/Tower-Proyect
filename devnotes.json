@@ -1,0 +1,9 @@
+{
+    "devnotes-patch-1.0": {
+      "title": "DevNotes patch 1.0",
+      "description": "Descripción de la versión 1.0.",
+      "update": "Dec 17, 2023, 09:27 PM",
+      "new_features": "\n-Add the button to change the information between global and Chinese: Now wanderers will be able to see and navigate each character with both global and Chinese data. \n-Add dev note section: I will constantly be changing, adding and removing things, so this is a kind of communication that I will have with you. \n-I modified and plan to change and remodel the entire 'character details' view so stay tuned."
+    }
+
+}

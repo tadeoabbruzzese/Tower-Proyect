@@ -1,18 +1,25 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { useParams } from 'react-router-dom';
-// import '../../styles/ImageDetail.css';
-import './CharacterDetail.css'
-
+import './CharacterDetail.css';
 import HighlightedNumbers from './HighlightedNumbers';
 import WeaponInfo from '../weapon_data/WeaponInfo';
+import { StyledButton } from './ButtonStyled';
+import { ThemeContext } from '../../App'; // Asegúrate de que la ruta sea correcta según tu estructura de carpetas
 
-function ImageDetail() {
+function CharacterDetail() {
   const { imageName } = useParams();
+  const [version, setVersion] = useState('global'); // 'china' o 'global'
   const [characterDetails, setCharacterDetails] = useState(null);
+  
+
+  const { setTheme, theme } = useContext(ThemeContext);
 
   useEffect(() => {
+    // Determina el nombre del archivo JSON según la versión actual
+    const jsonFileName = version === 'cnversion' ? 'cnversion.json' : 'global.json';
+
     // Fetch del JSON
-    fetch('../global.json')
+    fetch(`../${jsonFileName}`)
       .then((response) => {
         if (!response.ok) {
           throw new Error('No se pudo cargar el archivo JSON');
@@ -32,7 +39,12 @@ function ImageDetail() {
       .catch((error) => {
         console.error('Error al cargar detalles del personaje', error);
       });
-  }, [imageName]); // Ahora depende de imageName para actualizar según la URL
+  }, [imageName, version]); // Ahora depende de imageName y version
+
+  const cambiarVersion = () => {
+    setVersion((prevVersion) => (prevVersion === 'cnversion' ? 'global' : 'cnversion'));
+  };
+
 
   return (
     <div>
@@ -50,6 +62,18 @@ function ImageDetail() {
               <i><HighlightedNumbers text={characterDetails.awaken}/> </i>
             </p>
           </blockquote>
+          
+          <StyledButton
+        className={`slider round ${version === 'cnversion' ? 'cnversion' : 'global'}`}
+        onClick={cambiarVersion}
+        version={version}
+        theme={theme} 
+      >
+            <div className="slider-content">
+              <span className="label-ch" style={{color: "#FF0000"}}>CN</span>
+              <span className="label-gl" style={{color: "#0685CF"}}>🌎</span>
+            </div>
+          </StyledButton>
           </div>
           {/* Puedes mostrar otros detalles aquí*/}
           <div className='contenedor-personaje'>
@@ -57,6 +81,11 @@ function ImageDetail() {
             <p className='parrafo-weapon'>Weapon Effects</p>
             <p className='weapon-effects'><HighlightedNumbers text={characterDetails.weapon_effects} /></p>
             <p className='element-resonance'><HighlightedNumbers text={characterDetails.element_resonance} /></p>
+            <p className='weapon-passive'><HighlightedNumbers text={characterDetails.weapon_passive} /></p>
+            
+
+            
+          
             
             {characterDetails.advancements && (
               <div>
@@ -71,11 +100,21 @@ function ImageDetail() {
                 </ul>
               </div>
             )}
+
+<iframe
+  width="560"
+  height="315"
+  src={characterDetails.src_video}
+  title="YouTube video player"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowFullScreen
+></iframe>
           </div>
 
+          <WeaponInfo style={{ maxWidth: '600px' }} version={version} />
           
           
-          <WeaponInfo style={{ maxWidth: '600px' }} />
         </div>
         
       ) : (
@@ -85,4 +124,4 @@ function ImageDetail() {
   );
 }
 
-export default ImageDetail;
+export default CharacterDetail;

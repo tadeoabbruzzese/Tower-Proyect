@@ -12,7 +12,7 @@ function ImageDetail() {
   return (
     <div style={{ minHeight: "100vh" }}>
       
-      <CharacterDetail/>
+      <CharacterDetail imageName={imageName} />
       {/* Resto de los detalles de la imagen */}
     </div>
   );

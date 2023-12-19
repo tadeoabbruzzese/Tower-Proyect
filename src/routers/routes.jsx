@@ -7,6 +7,7 @@ import { Guides } from "../pages/Guides";
 import ImageDetail from "../pages/ImageDetail"; // Importa el componente con el nombre correcto
 import { Food } from "../pages/Food";
 import MatrixDetalle from "../pages/MatrixDetalle";
+import DevNotesPage from "../pages/DevNotesPage/DevNotesPage"
 
 
 export function MyRoutes() {
@@ -24,6 +25,7 @@ Set effects will only be active when using the weapon that the matrices are atta
                 <Route path="/food" element={<Food tittle="Food" p="The best guides made BY Tynnox"/>}/>
                 <Route path="/simulacra/:imageName" element={<ImageDetail />} />
                 <Route path="/matrices/:matrizName" element={<MatrixDetalle />} />
+                <Route path="/devnotes/:title" element={<DevNotesPage />} />
             </Routes>
     );
 }

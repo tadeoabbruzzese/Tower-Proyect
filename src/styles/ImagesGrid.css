@@ -143,6 +143,8 @@
   margin: 0 auto; /* Centrar en el medio de la pantalla */
 }
 
+
+
 @media (max-width: 767px)  {
   .image-grid {
     display: grid;

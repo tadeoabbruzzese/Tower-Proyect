@@ -972,7 +972,6 @@
     "awaken": "Increase Final damage by 18%. The Wanderer's base physical ATK is increased to the highest value out of their physical/flame/frost/volt base ATK. When the main slot weapon is Onyx Tortoise, normal attack damage is increased by 50%.",
     "awaken_title": "Awaken: Selfless",
     "release_date": "AUGUST 08, 2023",
-    "src_video": "https://www.youtube.com/embed/W533BQNlUb4?si=81jWnWZlj5EhlS8f",
     "attacks": [
       {
         "name": "Resistor",
@@ -1114,45 +1113,44 @@
     "title": "Feise",
     "weapon": "Endless Bloom",
     "weapon_effects": "Fully charged weapons will set the target on fire for 8 seconds with the next attack, causing ongoing damage of 58.00% of ATK every second. Ignited targets receive 50% efficacy from healing.",
-    "element_resonance": "Increase flame ATK by 15% and flame resistance by 25%. Activate by equipping 2 or more flame weapons. This set effect also works with weapons in the off-hand slot. Effect does not stack with Flame Resonance.",
-    "weapon_passive": "When Endless Bloom is equipped, upon landing a hit with any weapon's discharge skill, deal initial damage equal to 37.5% of flame ATK plus 0.5% of the Wanderer's Max HP plus 18.75% of the sum of all the Wanderer's resistance types plus 68.75% of crit to nearby targets. While in combat, after every 0.5 seconds, the next Swift Cut damage will be increased by an additional 1 time, up to a maximum of 30 times. When multiple Swift Cut damages exist, the highest initial value is used for calculation. FieryExplosion: Swift Cut damage is counted as discharge skill damage. If there is 1 frost/volt/ physical weapon of any kind equipped, Fiery Explosion damage is increased to 1.3 times. In addition, Fiery Explosion damage is not affected by any damage boost effects except from titan equipment's rare stats, and won't trigger additional attack effects.",
+    "element_resonance": "Increase flame ATK by 20% and flame resistance by 40%. Activate by equipping 2 or more flame weapons. This set effect also works with weapons in the off-hand slot. Effect does not stack with Flame Resonance.",
+    "weapon_passive": "When Endless Bloom is equipped, upon landing a hit with any weapon's discharge skill, deal initial damage equal to 500% of flame ATK plus 8.4% of the Wanderer's Max HP plus 300% of the sum of all the Wanderer's resistance types plus 1000% of crit to nearby targets. While in combat, after every 0.5 seconds, the next Swift Cut damage will be increased by an additional 1 time, up to a maximum of 30 times. When multiple Swift Cut damages exist, the highest initial value is used for calculation. FieryExplosion: Swift Cut damage is counted as discharge skill damage. If there is 1 frost/volt/ physical weapon of any kind equipped, Fiery Explosion damage is increased to 2.5 times. In addition, Fiery Explosion damage is not affected by any damage boost effects except from titan equipment's rare stats, and won't trigger additional attack effects.",
     "advancements": {
-      "1★": "1★ Blazing Heart's damage's base multiplier is increased to 60% of ATK. While in the combat state, if the Wanderer inflicts multiple burn effects, Blazing Heart's damage's base multiplier is additionally increased to that of the highest multiplier effect.",
+      "1★": "1★ Blazing Heart's damage's base multiplier is increased to 120% of ATK. While in the combat state, if the Wanderer inflicts multiple burn effects, Blazing Heart's damage's base multiplier is additionally increased to that of the highest multiplier effect.",
       "3★": "3★ The maximum number of Feist's Phantasia is increased to 2. After Whirling lands a hit, additionally create 1 FeiSe's Phantasia.",
-      "5★": "5★ For every 1 FeiSe's Phantasia or Lotus Petal in the Mirage, Blazing Heart's damage is additionally increased by 12%. Lotus Asparagus endurance consumption is reduced by 75%.",
-      "6★": "6★ Soulwear damage's base multiplier is increased to 270% of ATK, shatter is doubled, and after landing a hit, there is a 15% chance to inflict a 65% delay for 2 seconds (ineffective against bosses in team play and unavailable in Apex League)."
+      "5★": "5★ For every 1 FeiSe's Phantasia or Lotus Petal in the Mirage, Blazing Heart's damage is additionally increased by 15%. Lotus Asparagus endurance consumption is reduced by 75%.",
+      "6★": "6★ Soulwear damage's base multiplier is increased to 900% of ATK, shatter is doubled, and after landing a hit, there is a 15% chance to inflict a 65% delay for 2 seconds (ineffective against bosses in team play and unavailable in Apex League)."
     },
     "matrice_src": "/matrices/feisematrice.jpg",
-    "matrice_2p": "After using any flame weapon skill or discharge, increase all attack by 14%/16%/18%/20% for 30 seconds. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
-    "matrice_4p": "When equipped with at least 1 flame weapon, increase all elemental damage by 14%/17%/20%/23%. After creating FeiSe's Phantasia, increase Final damage by 9% for 25 seconds. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
+    "matrice_2p": "After using any flame weapon skill or discharge, increase all attack by 18%/22%/26%/30% for 30 seconds. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
+    "matrice_4p": "When equipped with at least 1 flame weapon, increase all elemental damage by 28%/32%/36%/40%. After creating FeiSe's Phantasia, increase Final damage by 20% for 25 seconds. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
     "miniImage1": "src/assets/mini-images/dps.jpg",
     "miniImage2": "src/assets/mini-images/fireelement.jpg",
     "shatter": "14.00",
     "charge": "12.00",
-    "awaken": "After using Whirling, for every 1 Flame weapon equipped, increase Final Damage by 9% for 30 seconds.",
+    "awaken": "Increase final damage by 18%. After using Whirling, for every 1 Flame weapon equipped, increase Final Damage by 6% for 30 seconds.",
     "awaken_title": "Awaken: Darkshadow",
     "release_date": "SEPTEMBER 26, 2023",
-    "src_video": "https://www.youtube.com/embed/JjUNvMwBdis?si=BORYwMZg21-P56X7",
     "attacks": [
       {
         "name": "Maneuver",
-        "description": "While on the ground, use normal attack to launch 6 consecutive attacks. First Attack: Deal damage equal to 82% of ATK. Second Attack: Deal damage equal to 122% of ATK. Third Attack: Deal damage equal to 132% of ATK. Fourth Attack: Deal damage equal to 144% of ATK. Fifth Attack: Deal damage equal to 146% of ATK. Sixth Attack Deal damage equal to 115% of ATK"
+        "description": "While on the ground, use normal attack to launch 6 consecutive attacks. First Attack: Deal damage equal to 136% of ATK plus 7. Second Attack: Deal damage equal to 204% of ATK plus 11. Third Attack: Deal damage equal to 220% of ATK plus 12. Fourth Attack: Deal damage equal to 240% of ATK plus 13. Fifth Attack: Deal damage equal to 244% of ATK plus 13. Sixth Attack Deal damage equal to 192% of ATK plus 10"
       },
       {
         "name": "Shifting Clouds",
-        "description": "While airborne, use normal attack to launch 6 consecutive attacks in mid-air, consuming endurance. First Attack: Deal damage equal to 72% of ATK. Second Attack: Deal damage equal to 98% of ATK. Third Attack: Deal damage equal to 142% of ATK. Fourth Attack: Deal damage equal to 142% of ATK. Fifth Attack: Deal damage equal to 173% of ATK. Sixth Attack Deal damage equal to 144% of ATK"
+        "description": "While airborne, use normal attack to launch 6 consecutive attacks in mid-air, consuming endurance. First Attack: Deal damage equal to 120% of ATK plus 6. Second Attack: Deal damage equal to 164% of ATK plus 9. Third Attack: Deal damage equal to 236% of ATK plus 12. Fourth Attack: Deal damage equal to 236% of ATK plus 12. Fifth Attack: Deal damage equal to 288% of ATK plus 15. Sixth Attack Deal damage equal to 240% of ATK plus 13"
       },
       {
         "name": "Golden Autumn",
-        "description": "While using on the ground, tap and hold normal attack when using the First to third normal attacks to trigger Golden Autumn. Draw in nearby targets, dealing damage equal to 259% of ATK and suspending them."
+        "description": "While using on the ground, tap and hold normal attack when using the First to third normal attacks to trigger Golden Autumn. Draw in nearby targets, dealing damage equal to 432% of ATK plus 23 and suspending them."
       },
       {
         "name": "Resounding Pendants",
-        "description": "While using on the ground, tap and hold normal attack when using the fourth to sixth normal attacks to trigger Resounding Pendants. Deal damage equal to 74% of ATK and knock the targets back."
+        "description": "While using on the ground, tap and hold normal attack when using the fourth to sixth normal attacks to trigger Resounding Pendants. Deal damage equal to 264% of ATK plus 14 and knock the targets back."
       },
       {
         "name": "Falling FLowers",
-        "description": "During Shifting Clouds, tap and hold normal attack to trigger Falling Flowers. Descend from above. After landing, deal damage equal to 74% of ATK to nearby targets and launch them."
+        "description": "During Shifting Clouds, tap and hold normal attack to trigger Falling Flowers. Descend from above. After landing, deal damage equal to 124% of ATK plus 7 to nearby targets and launch them."
       },
       {
         "name": "Lotus Aspara",
@@ -1166,27 +1164,27 @@
       },
       {
         "name": "Scatter",
-        "description": "Use normal attack during the short perfect dodge window (use a directional button before dodging) to trigger Flower Scatter, dealing damage equal to 209% of ATK to nearby targets.During Mirage Fantasy created by Whirling, after the First dodge attack using any weapon lands a hit, trigger Flower Graft, creating a Fei Se's Phantasia and Lotus Petal. Fei Se's Phantasia: Upon creation, Fei Se's Phantasia copies 25% of the target's Max ATK and converts it to the Wanderer's base Flame ATK [not lower than 3,300 and not exceeding 3,450; this Flame ATK will not be reflected on the Wanderer's stats and is unavailable in Apex League] until Fei Se's Phantasia disappears. This is calculated independently for each Fei Se's Phantasia. There can be only 1 Fei Se's Phantasia at a time. Lotus Petal: Upon creation, the Lotus Petal count is equal to the number of summons created by the Wanderer's weapons other than Endless Bloom. After creation, the Lotus Petal count does not change with the number of summons. Lotus Petals are considered as summons."
+        "description": "Use normal attack during the short perfect dodge window (use a directional button before dodging) to trigger Flower Scatter, dealing damage equal to 348% of ATK plus 18 to nearby targets.During Mirage Fantasy created by Whirling, after the First dodge attack using any weapon lands a hit, trigger Flower Graft, creating a Fei Se's Phantasia and Lotus Petal. Fei Se's Phantasia: Upon creation, Fei Se's Phantasia copies 25% of the target's Max ATK and converts it to the Wanderer's base Flame ATK [not lower than 6500 and not exceeding 10000; this Flame ATK will not be reflected on the Wanderer's stats and is unavailable in Apex League] until Fei Se's Phantasia disappears. This is calculated independently for each Fei Se's Phantasia. There can be only 1 Fei Se's Phantasia at a time. Lotus Petal: Upon creation, the Lotus Petal count is equal to the number of summons created by the Wanderer's weapons other than Endless Bloom. After creation, the Lotus Petal count does not change with the number of summons. Lotus Petals are considered as summons."
       },
       {
         "name": "Flutter",
-        "description": "Use normal attack during the short period after dodging to trigger Flutter, dealing damage equal to 120% of ATK to nearby targets."
+        "description": "Use normal attack during the short period after dodging to trigger Flutter, dealing damage equal to 200% of ATK plus 11 to nearby targets."
       }
     ],
     "skills": [
       {
         "name": "Whirling",
-        "description": "Tap the skill button to cast Deal damage equal to 1,008% of ATK to nearby targets and create a Mirage Fantasy, lasting up to 25 seconds.When Whirling is in cooldown, gain the new skill, Lissom. Lissom can be used after the Mirage has been active for 20 seconds. After the Mirage disappears, immediately refresh Whirling's cooldown. This is not affected by other cooldown clearing, resetting, or changing effects. During the Mirage: Every second, deal Soulwear damage equal to 135% of ATK. Soulwear damage counts as normal attack damage. Every 5 seconds, inflict Blazing Heart on targets within range, dealing burn damage equal to 20% of ATK for 5 seconds. For every 1 Fei Se's Phantasia or Lotus Petal created by the Wanderer in the Mirage, Blazing Heart's damage is additionally increased by 6%."
+        "description": "Tap the skill button to cast Deal damage equal to 3360% of ATK plus 177 to nearby targets and create a Mirage Fantasy, lasting up to 25 seconds.When Whirling is in cooldown, gain the new skill, Lissom. Lissom can be used after the Mirage has been active for 20 seconds. After the Mirage disappears, immediately refresh Whirling's cooldown. This is not affected by other cooldown clearing, resetting, or changing effects. During the Mirage: Every second, deal Soulwear damage equal to 450% of ATK. Soulwear damage counts as normal attack damage. Every 5 seconds, inflict Blazing Heart on targets within range, dealing burn damage equal to 50% of ATK for 5 seconds. For every 1 Fei Se's Phantasia or Lotus Petal created by the Wanderer in the Mirage, Blazing Heart's damage is additionally increased by 15%."
       },
       {
         "name": "Lissom",
-        "description": "When Whirling is in cooldown, gain the new skill, Lissom. Lissom can be used after the Mirage has been active for 20 seconds. Clear all Fei Se's Phantasias and Lotus Petals in the Mirage created by the Wanderer. For every 1 Fei Se's Phantasia or Lotus Petal cleared, deal damage equal to 180% of ATK to nearby targets. Then, shatter the Mirage Fantasy, dealing damage equal to 450% of ATK to nearby targets."
+        "description": "When Whirling is in cooldown, gain the new skill, Lissom. Lissom can be used after the Mirage has been active for 20 seconds. Clear all Fei Se's Phantasias and Lotus Petals in the Mirage created by the Wanderer. For every 1 Fei Se's Phantasia or Lotus Petal cleared, deal damage equal to 1200% of ATK plus 63 to nearby targets. Then, shatter the Mirage Fantasy, dealing damage equal to 1500% of ATK plus 69 to nearby targets."
       }
     ],
     "discharges": [
       {
         "name": "Unparalleled Jade Poo",
-        "description": "When weapon charge is full or Phantasia is triggered, upon switching to this weapon, remove all debuffs from the Wanderer, dealing damage equal to 1,090% of ATK. During this period, gain damage immunity For 1.5 seconds [unavailable in Apex League]."
+        "description": "When weapon charge is full or Phantasia is triggered, upon switching to this weapon, remove all debuffs from the Wanderer, dealing damage equal to 3632% of ATK plus 191. During this period, gain damage immunity For 1.5 seconds [unavailable in Apex League]."
       }
     ]
   },
@@ -1197,40 +1195,40 @@
     "title": "Ling Han",
     "weapon": "Alabaster Tiger",
     "weapon_effects": "Fully charged weapons will freeze the target for 2 seconds and leave it frostbitten for 6 seconds. Breaking the ice shell causes additional damage equal to 151.00% of ATK. While frostbitten, the target's weapon charge rate is reduced by 50%.",
-    "element_resonance": "Frost Resonance: Increase Frost ATK by 15% and Frost Resistance by 25%. Activate by equipping 2 or more Frost weapons. This set effect works in the off-hand slot. Cannot stack with effects of the same type.",
-    "weapon_passive": "Extreme Cold: Unload: After using Sword Art: Shadowy Ice, every second, deal damage equal to 70% of frost ATK plus 10% of the Wanderer's Max HP plus 36% of the sum of all the Wanderer's resistance types plus 135% of crit for 30 seconds. Multiple Unload damage will not stack and Extreme Cold damage will be counted as skill damage. If there is 1 volt/flame/physical weapon of any kind equipped, Extreme Cold damage is multiplied by 1.3 times. In addition, Extreme Cold damage is not affected by any damage boost effects except from titan equipment's rare stats, and won't trigger additional attack effects.",
+    "element_resonance": "Frost Resonance: Increase Frost ATK by 20% and Frost Resistance by 40%. Activate by equipping 2 or more Frost weapons. This set effect works in the off-hand slot. Cannot stack with effects of the same type.",
+    "weapon_passive": "Extreme Cold: Unload: After using Sword Art: Shadowy Ice, every second, deal damage equal to 50% of frost ATK plus 20% of the Wanderer's Max HP plus 750% of the sum of all the Wanderer's resistance types plus 2500% of crit for 30 seconds. Multiple Unload damage will not stack and Extreme Cold damage will be counted as skill damage. If there is 1 volt/flame/physical weapon of any kind equipped, Extreme Cold damage is multiplied by 2.5 times. In addition, Extreme Cold damage is not affected by any damage boost effects except from titan equipment's rare stats, and won't trigger additional attack effects.",
     "advancements": {
-      "1★": "1★ After launching Frost Blades, the Wanderer's frost ATK is increased by 10% and nearby targets will be dealt damage equal to 80% of ATK every second for 30 seconds.",
-      "3★": "3★ The Wanderer can produce up to 4 Frost Blades and Temperature Reduction's damage's base multiplier is increased to 360%. If the target is the only one affected by Temperature Reduction within 6 seconds, additionally apply Vein Seal to the target, reducing their speed by 30% (unavailable in Apex League and against bosses). If the target receives Frost Blade damage again during Vein Seal's duration, trigger Icy Burst, dealing skill damage equal to 1,700% of ATK plus 2% of the target's HP lost at that point (Icy Burst damage will be no lower than 2,000% of the Wanderer's frost ATK and no higher than 2,200% of the Wanderer's frost ATK). Then, remove the Vein Seal and Temperature Reduction effects on the target.",
+      "1★": "1★ After launching Frost Blades, the Wanderer's frost ATK is increased by 10% and nearby targets will be dealt damage equal to 400% of ATK every second for 30 seconds.",
+      "3★": "3★ The Wanderer can produce up to 4 Frost Blades and Temperature Reduction's damage's base multiplier is increased to 1800%. If the target is the only one affected by Temperature Reduction within 6 seconds, additionally apply Vein Seal to the target, reducing their speed by 30% (unavailable in Apex League and against bosses). If the target receives Frost Blade damage again during Vein Seal's duration, trigger Icy Burst, dealing skill damage equal to 6000% of ATK plus 2% of the target's HP lost at that point (Icy Burst damage will be no lower than 7000% of the Wanderer's frost ATK and no higher than 12000% of the Wanderer's frost ATK). Then, remove the Vein Seal and Temperature Reduction effects on the target.",
       "5★": "5★ The damage dealt by Crystalline Crack and Cold Air is additionally increased by 50%. Light Steps' use attempts is increased to 10 and recovery rate is increased to 1 attempt every 3 seconds.",
-      "6★": "6★ The Temperature Reduction effect inflicted after firing Frost Blades is now applied to an area and also deals additional damage equal to 990% of ATK to nearby targets."
+      "6★": "6★ The Temperature Reduction effect inflicted after firing Frost Blades is now applied to an area and also deals additional damage equal to 4500% of ATK to nearby targets."
     },
     "matrice_src": "/matrices/linghanmatrice.jpg",
-    "matrice_2p": "Increase all elemental damage by 7%/8%/9%/10%. When firing Frost Blades, deal additional damage to 416% of ATK to nearby targets. This set effect works in the off-hand slot, and only the set with highest star rating will take effect.",
-    "matrice_4p": "After using any frost weapon's discharge skill, increase final damage by 12%/15%/19%/23% for 30 seconds. When Alabaster Tiger is equipped, increase all attack by 12%. This set effect works in the off-hand slot, and only the set with the highest star rating will take effect.",
+    "matrice_2p": "Increase all elemental damage by 9%/12%/15%/18%. When firing Frost Blades, deal additional damage to 1600% of ATK to nearby targets. This set effect works in the off-hand slot, and only the set with highest star rating will take effect.",
+    "matrice_4p": "After using any frost weapon's discharge skill, increase final damage by 28%/32%/36%/40% for 30 seconds. When Alabaster Tiger is equipped, increase all attack by 15%. This set effect works in the off-hand slot, and only the set with the highest star rating will take effect.",
     "miniImage1": "src/assets/mini-images/dps.jpg",
     "miniImage2": "src/assets/mini-images/fireelement.jpg",
     "shatter": "16.00",
     "charge": "8.00",
-    "awaken": "Increase final damage by 18%. When Alabaster Tiger is equipped, gain damage immunity for 4 seconds when using Sword Art: Icy Beckon (unavailable in Apex League). For every 1 frost weapon equipped, increase frost damage by 2.5%. When 3 frost weapons are equipped, gain an additional 350 weapon charge after the Wanderer uses any frost weapon skill. After using any frost weapon's skill or discharge other than Alabaster Tiger's, deal additional damage equal to 1,456% of ATK to nearby targets.",
+    "awaken": "Increase final damage by 18%. When Alabaster Tiger is equipped, gain damage immunity for 4 seconds when using Sword Art: Icy Beckon (unavailable in Apex League). For every 1 frost weapon equipped, increase frost damage by 4%. When 3 frost weapons are equipped, gain an additional 350 weapon charge after the Wanderer uses any frost weapon skill. After using any frost weapon's skill or discharge other than Alabaster Tiger's, deal additional damage equal to 5600% of ATK to nearby targets.",
     "awaken_title": "Awaken: Governing Blade",
     "release_date": "OCTOBER 24, 2023",
     "attacks": [
       {
         "name": "Sword Art: Mooncutter",
-        "description": "While on the ground, use your normal attack to land 6 consecutive attacks. First Attack: Deal damage equal to 97.8% of ATK + 5 and knock the target back.Second Attack: Deal damage equal to 129.4% of ATK + 7 and knock the target back.Third Attack: Deal damage equal to 207.2% of ATK + 11 and knock the target back.Fourth Attack: Deal damage equal to 125% of ATK + 7 and knock the target back.Fifth Attack: Deal damage equal to 226% of ATK + 12 and draw in enemies to the front of the Wanderer. Sixth Attack: Deal damage equal to 253.6% of ATK + 13 and launch the target. After triggering Sword Art: Mooncutter, tap and hold normal attack to trigger Sword Art: Endless Snow. After any of Alabaster Tiger's normal attacks land a hit, apply 1 stack of Crystalline Crack to the target, dealing normal attack damage equal to 48% of ATK every second for 15 seconds. Only 1 stack of Crystalline Crack can be applied to the same target every 4 seconds, stacking up to 3 times. The stacks will disappear one by one after the effect duration is over."
+        "description": "While on the ground, use your normal attack to land 6 consecutive attacks. First Attack: Deal damage equal to 376.2% of ATK + 20 and knock the target back.Second Attack: Deal damage equal to 497.5% of ATK + 26 and knock the target back.Third Attack: Deal damage equal to 797.1% of ATK + 42 and knock the target back.Fourth Attack: Deal damage equal to 480% of ATK + 42 and knock the target back.Fifth Attack: Deal damage equal to 869.5% of ATK + 46 and draw in enemies to the front of the Wanderer. Sixth Attack: Deal damage equal to 975.4% of ATK + 51 and launch the target. After triggering Sword Art: Mooncutter, tap and hold normal attack to trigger Sword Art: Endless Snow. After any of Alabaster Tiger's normal attacks land a hit, apply 1 stack of Crystalline Crack to the target, dealing normal attack damage equal to 150% of ATK every second for 15 seconds. Only 1 stack of Crystalline Crack can be applied to the same target every 4 seconds, stacking up to 3 times. The stacks will disappear one by one after the effect duration is over."
       },
       {
         "name": "Sword Art: Plum Swordcry",
-        "description": "While in the air, use your normal attack to land 6 consecutive attacks at the expense of stamina. First Attack: Deal damage equal to 95.9% of ATK + 5. Second Attack: Deal damage equal to 100.7% of ATK + 5. Third Attack: Deal damage equal to 218.6% of ATK + 12. Fourth Attack: Deal damage equal to 130% of ATK + 7. Fifth Attack: Deal damage equal to 213.7% of ATK + 11. Sixth Attack: Deal damage equal to 256.9% of ATK + 14."
+        "description": "While in the air, use your normal attack to land 6 consecutive attacks at the expense of stamina. First Attack: Deal damage equal to 368.9% of ATK + 19. Second Attack: Deal damage equal to 387.3.7% of ATK + 20. Third Attack: Deal damage equal to 840.5% of ATK + 44. Fourth Attack: Deal damage equal to 500% of ATK + 26. Fifth Attack: Deal damage equal to 822.1% of ATK + 43. Sixth Attack: Deal damage equal to 988.1% of ATK + 52."
       },
       {
         "name": "Sword Art: Endless Snow",
-        "description": "While using normal attack on the ground, tap and hold normal attack to trigger Sword Art: Endless Snow. Use mind control to manipulate the sword while consuming endurance, during which the Wanderer gains hyperbody. Every attack that lands deals damage equal to 140.8% of ATK plus 7 to nearby targets. When Sword Art: Endless Snow ends, release a powerful sword aura, dealing damage equal to 422.4% of ATK plus 22 to nearby targets"
+        "description": "While using normal attack on the ground, tap and hold normal attack to trigger Sword Art: Endless Snow. Use mind control to manipulate the sword while consuming endurance, during which the Wanderer gains hyperbody. Every attack that lands deals damage equal to 335.2% of ATK plus 18 to nearby targets. When Sword Art: Endless Snow ends, release a powerful sword aura, dealing damage equal to 1005.6% of ATK plus 53 to nearby targets"
       },
       {
         "name": "Sword Art: Falling Frost",
-        "description": "Tap and hold normal attack while airborne (tap when a target is available), or use normal attack while climbing, jumping backward, or using the Jetpack to trigger Sword Art: Falling Frost. While falling, deal damage equal to 75% of ATK plus 4 each time a target is hit. Upon landing, deal damage equal to 366.7% of ATK plus 19 to nearby targets."
+        "description": "Tap and hold normal attack while airborne (tap when a target is available), or use normal attack while climbing, jumping backward, or using the Jetpack to trigger Sword Art: Falling Frost. While falling, deal damage equal to 288.5% of ATK plus 15 each time a target is hit. Upon landing, deal damage equal to 1410.4% of ATK plus 74 to nearby targets."
       },
       {
         "name": "Light Steps",
@@ -1244,23 +1242,23 @@
       },
       {
         "name": "Sword Art: Cloud Shower",
-        "description": "Use normal attack during the short perfect dodge window (use a directional button before dodging) to trigger Sword Art: Cloud Shower, dealing damage up to 305% of ATK plus 16 to targets hit."
+        "description": "Use normal attack during the short perfect dodge window (use a directional button before dodging) to trigger Sword Art: Cloud Shower, dealing damage up to 1173.2% of ATK plus 62 to targets hit."
       },
       {
         "name": "Sword Art: Mortal Soul",
-        "description": "Use normal attack during the short period after dodging to trigger Sword Art: Mortal Soul. Release a White Tiger illusion to deal damage equal to 167.8% of ATK plus 9 to targets ahead."
+        "description": "Use normal attack during the short period after dodging to trigger Sword Art: Mortal Soul. Release a White Tiger illusion to deal damage equal to 670.4% of ATK plus 35 to targets ahead."
       }
     ],
     "skills": [
       {
         "name": "Sword Art: Shadowy Ice",
-        "description": "Deal damage equal to 370.2% of ATK plus 19 to nearby targets an draw them in. Then, form a Sword Array to summon a heavy rain of swords and strongly freeze targets [unavailable in Apex League and against bosses] for 4 seconds. Cooldown: 30 seconds. After successfully using Sword Art: Shadowy Ice, the Wanderer emits Cold Air, dealing damage equal to 68% of ATK to nearby targets every second and reducing the targets speed by 30% [unavailable in Apex League and against bosses]. At the same time, increase the Wanderer's frost damage by 8% for 35 seconds.After completely executing Sword Art: Shadowy Ice, the Wanderer creates a large amount of Frost Blades, firing 1 blade every 7.5 seconds at the currently locked-on target, dealing damage equal to 360% of ATK and inflicting Temperature Reduction on the target. There can be up to 3 Frost Blades created initially, and all blades will be removed while in the non-combat state.Temperature Reduction: Deal damage equal to 240% of ATK every 3 seconds to nearby targets for 12 seconds."
+        "description": "Deal damage equal to 1423.9% of ATK plus 75 to nearby targets an draw them in. Then, form a Sword Array to summon a heavy rain of swords and strongly freeze targets [unavailable in Apex League and against bosses] for 4 seconds. Cooldown: 30 seconds. After successfully using Sword Art: Shadowy Ice, the Wanderer emits Cold Air, dealing damage equal to 340% of ATK to nearby targets every second and reducing the targets speed by 30% [unavailable in Apex League and against bosses]. At the same time, increase the Wanderer's frost damage by 15% for 35 seconds.After completely executing Sword Art: Shadowy Ice, the Wanderer creates a large amount of Frost Blades, firing 1 blade every 7.5 seconds at the currently locked-on target, dealing damage equal to 2100% of ATK and inflicting Temperature Reduction on the target. There can be up to 3 Frost Blades created initially, and all blades will be removed while in the non-combat state.Temperature Reduction: Deal damage equal to 1400% of ATK every 3 seconds to nearby targets for 12 seconds."
       }
     ],
     "discharges": [
       {
         "name": "Sword Art: Icy Beckon",
-        "description": "When weapon charge is full or Phantasia is triggered, upon switching to this weapon, remove all debuffs from the Wanderer and summon a Sword Array around the Wanderer, engulfing the area in cold and dealing damage up to 844.5% of ATK plus 44 to nearby targets. Soon after, summon a White Tiger to deal damage equal to 1,971% of ATK plus 104, during which damage immunity lasts for 1.5 seconds [unavailable in Apex League]. Passive: After Sword Art: Icy Beckon lands a hit, increase final damage by 8% for 30 seconds."
+        "description": "When weapon charge is full or Phantasia is triggered, upon switching to this weapon, remove all debuffs from the Wanderer and summon a Sword Array around the Wanderer, engulfing the area in cold and dealing damage up to 2111.8% of ATK plus 111 to nearby targets. Soon after, summon a White Tiger to deal damage equal to 4927% of ATK plus 259, during which damage immunity lasts for 1.5 seconds [unavailable in Apex League]. Passive: After Sword Art: Icy Beckon lands a hit, increase final damage by 15% for 30 seconds."
       }
     ]
   },
@@ -1270,18 +1268,18 @@
     "alt": "Imagen 38",
     "title": "Nan Yin",
     "weapon": "Nan Yin",
-    "weapon_effects": "Influence: after switching the weapon to Black Bamboo, Black Bamboo's damage element type will be changed to the element type of the previous active weapon.Temporary Dwelling: any unlocked wanderer's weapon can be enhanced with Darkness in the settings of a specific weapon.Darkness-enhanced weapons deals 1% more damage.When not spreading to other weapons, Darkness resides in Black Bamboo, increasing all wanderer's damage dealt by 15% when Black Bamboo is the current active weapon.",
+    "weapon_effects": "Influence: after switching the weapon to Black Bamboo, Black Bamboo's damage element type will be changed to the element type of the previous active weapon.Temporary Dwelling: any unlocked wanderer's weapon can be enhanced with Darkness in the settings of a specific weapon.Darkness-enhanced weapons deals 4% more damage.When not spreading to other weapons, Darkness resides in Black Bamboo, increasing all wanderer's damage dealt by 9% when Black Bamboo is the current active weapon.",
     "element_resonance": "Last Knock: Increase ATK by 30%. Activate by equipping 3 altered weapons. This set effect works in the off-hand slot.",
-    "weapon_passive": "When landing any hit with Equilibrium, it deals damage to nearby targets equal to 2,250% of physical ATK plus 38% of the Wanderer's Max HP plus 1.350% of the sum of all the Wanderer's resistance types plus 4,500% of crit. This effect can be triggered up to 1 time every 1.5 seconds. The Flying Blade damage is counted as normal attack damage. If there is 1 frost/volt weapon of any kind equipped, Flying Blade damage is multiplied by 2.5 times. In addition, Flying Blade damage is not affected by any damage boost effects except from titan equipment's rare stats, and won't trigger additional attack effects.",
+    "weapon_passive": "When the weapon is fully charged, the next attack will mark the target, causing an explosion after 5 seconds. Additionally inflict 25% of all damage received by the target while the mark exists, up to a total of 560.00% of your ATK. Only 1 mark can be added on a target at a time.",
     "advancements": {
-      "1★": "1★ Darkness damage buff is further increased by 1% for every 1 advancement level of Darkness-enhanced weapon. Hyperspace damage's base multiplier is increased to 0.06% of total wanderer damage in Hyperspace (not including Shadow damage) plus 2,400% of ATK.",
+      "1★": "1★ Darkness damage buff is further increased by 1% for every 1 advancement level of Darkness-enhanced weapon. Hyperspace damage's base multiplier is increased to 0.06% of total wanderer damage in Hyperspace (not including Shadow damage) plus 4,000% of ATK.",
       "3★": "3★ Shadow inherits an additional 50% of the wanderer's ATK. If the wanderer is not in Trance state, when the wanderer takes lethal damage, the Shadow disappears and the wanderer becomes invulnerable for a short period of time. This effect triggers once every 60 seconds, with other similar effects triggering first and works in the off-hand slot.",
       "5★": "5★ In Hyperspace, you ignore 20% of target's elemental resistance. The limit of created Abyss Flows is increased to 3",
-      "6★": "6★ Hyperspace damage's base multiplier is increased to 0.6% of total wanderer damage in Hyperspace [not including Shadow damage] plus 2,400% of ATK."
+      "6★": "6★ Hyperspace damage's base multiplier is increased to 0.12% of total wanderer damage in Hyperspace [not including Shadow damage] plus 4,000% of ATK."
     },
     "matrice_src": "/matrices/nanyinmatrice.jpg",
-    "matrice_2p": "Increases all attack types by 19%/21%/23%/25%. Shadow inherits an additional 30% of the wanderer's ATK. The first time you deal damage in combat, 1,000 weapon charge is granted. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
-    "matrice_4p": "After equipping Purple Bamboo, increase crit damage by 8% and final damage by 18%/20%/22%/24%. This set effect works in the off-hand slot, only the set with the highest star rating will take effect.",
+    "matrice_2p": "Increases all attack types by 20%/24%/28%/32%. Shadow inherits an additional 30% of the wanderer's ATK. The first time you deal damage in combat, 1,000 weapon charge is granted. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
+    "matrice_4p": "After equipping Purple Bamboo, increase crit damage by 22% and final damage by 28%/32%/36%/42%. This set effect works in the off-hand slot, only the set with the highest star rating will take effect.",
     "miniImage1": "src/assets/mini-images/dps.jpg",
     "miniImage2": "src/assets/mini-images/fireelement.jpg",
     "shatter": "12.00",
@@ -1318,87 +1316,6 @@
         "name": "Hollow Abyss Flow",
         "description": "Hold on the ground to create an Abyss Flow at the current location. Click on the created marker on the world map to teleport to that location or configure it. Up to 2 Abyss Flows can exist at a time."
       }
-    ],
-    "dodges": [
-      {
-        "name": "Dodge",
-        "description": "Dodge right before being hit to trigger Phantasia, reducing the speed of enemies within the area."
-      },
-      {
-        "name": "Vortex Field",
-        "description": "Use normal attack during the short perfect dodge window [use a directional button before dodging] to trigger Vortex Field. Dark Matter is created at the chosen location, dealing damage equal to 360% of ATK. When enemies pass near the Dark Matter, a Vortex Field is formed that pulls them together. When passing through the Vortex Field, the wanderer gains Dimension Defense effect for 15 seconds, which allows blocking 1 attack from a target whose damage will not exceed 300% of the wanderer's Max HP. Up to 1 Dimension Defense effect can be received every 15 seconds."
-      },
-      {
-        "name": "Sword Art: Mortal Soul",
-        "description": "Use normal attack during the short period after dodging to trigger Sword Art: Mortal Soul. Release a White Tiger illusion to deal damage equal to 167.8% of ATK plus 9 to targets ahead."
-      }
-    ],
-    "skills": [
-      {
-        "name": "Hyperspace",
-        "description": "Wanderer gains temporary invulnerability, activates Hyperspace, and deals damage equal to 2,080% of ATK to nearby targets, also slowing them by 65% for 3 seconds (has no effect in team play and against bosses). At the same time, triggers Shadow's skill. Cooldown: 60 seconds. Wanderer soars into the air and forces nearby enemies to enter Hyperspace. Hyperspace lasts up to 60 seconds, during which the wanderer gains the Hyperbody effect, and Black Bamboo's damage ignores enemies shields.Hyperspace gains 2 plus the number of enemies in the area times 1 energy every second.When the amount of stored energy reaches 45, Hyperspace collapses, dealing damage equal to 0.06% of the total wanderer damage in Hyperspace (not including Shadow damage) plus 2,000% of ATK.Hyperspace disappears prematurely after 4 collapses."
-      },
-      {
-        "name": "Butterfly Dance",
-        "description": "In team play, after any successful Black Bamboo's dodge skill creates 1 butterfly that will follow the wanderer for 60 seconds. When Attack Resonance/Balance Resonance is active: The butterfly surrounds the wanderer's target. Its flight path forms a visual trail and deals damage equal to 300% of the target's ATK as it passes through the trail. When Fortitude Resonance is active: Targets passing through the butterfly's trail are slowed by 65% for 2 seconds. Allies (including yourself) passing through the butterfly's trail receive a shield equal to 10% of Max HP, stacking up to 20%, and lasts for 15 seconds. The shield can be received once per second. When Benediction Resonance is active: When an ally takes lethal damage and falls to the ground, the butterfly helps them up immediately and then disappears."
-      }
-    ],
-    "discharges": [
-      {
-        "name": "Sword Art: Icy Beckon",
-        "description": "When weapon charge is full or Phantasia is triggered, upon switching to this weapon, remove all debuffs from the Wanderer, creates chains and shackles the target, slowing by 65% for 3 seconds (has no effect in team play and against bosses).Deals damage equal to 3,970% of ATK. During this period, gain damage immunity for 2.6 seconds (unavailable in Apex League).Passive: Shadow Harmony Fetters create a Shadow on the Field,which synergistically attacks the same target with the wanderer. Only 1 Shadow can exist at a time. The Shadow lasts for 20 seconds out of combat. For each equipped altered weapon or weapon of different element, Shadow's damage increases by 10%. Shadow's damage is not affected by any damage boost effects except from titan equipment's rare stats and won't trigger additional attack effects. Press and hold the dodge button to enter the Trance stance: you become bound to the Shadow and can control its movements, but Shadow loses his synergy attack which is replaced by Shadow Normal Attack and Shadow Skill.When you enter a Trance state,Shadow goes into a Rage state: its movement speed, damage reduction, shatter, and charge rates are increased by 50%. In addition, Shadow's normal attack and skill damage are increased by the percentage of HP lost. Shadow Synergy: periodically deals damage equal to 1,760% ~ 3,200% of Shadow's ATK to wanderer's target. Shadow Aura: every second deals damage equal to 800% of Shadow's ATK to nearby targets. Shadow Normal Attack: press the normal attack button to perform 4 consecutive attacks. Each attack deals damage equal to 4,800% ~ 7,700% of Shadow's ATK to nearby targets (counts as normal attack damage).Shadow Skill: spends 25% of Shadow's Max HP and deals damage equal to 14,300% ~ 15,600% of Shadow's ATK to nearby targets (counts as skill damage). Shadow Banishment: Shadow disappears when it takes lethal damage, when Wanderer removes or retrieves Black Bamboo, or when Wanderer presses and holds the dodge button while the Trance trance is active. Passive: AmbivalenceHarmony Fetters triggers an additional effect that depends on the element type of the previous weapon that was active before. Frost: summons Darkness: Baihu,deals damage equal to 1,000% of ATK and gains a shield equal to 60% of Max HP for 30 seconds. At the same time creates an ice storm for 60 seconds at the wanderer's target location, every second dealing damage equal to 700% of ATK (counts as normal attack damage). Flame: summons Dark Wretch: Black Crow,deals damage equal to 1,000% of ATK and inflicts burn for 10 seconds, every second dealing damage equal to 320% of ATK (counts as passive damage). Volt: summons Dark Wretch: Longxiang, deals damage equal to 1,000% of ATK. When wanderer is not in Trance state, every second consumes 5% of Shadow's Max HP to deal additional equivalent damage to nearby targets (counts as normal attack damage). Physical: summons Darkness: Hornmane, deals damage equal to 1 000% of ATK and grants a Sweeping effect For 30 seconds, dealing additional damage equal to 750% of ATK to nearby targets when a critical hit is landed(counts as normal attack damage). Additional damage can trigger once per 0.85 seconds. Altered: summons Darkness: Taote, deals damage equal to 1,050% of ATK. The Shadow additionally inherits 100% of the wanderer's ATK. When Shadow disappears, an explosion is created, dealing damage equal to 15,000% of Shadow's ATK (counts as skill damage)."
-      }
-    ],
-    "recommended_pairing": [
-      {
-        "title": "Yan Miao",
-        "src": "/src/assets/images/yanmiao.jpg",
-        "miniImage1": "/src/assets/mini-images/dps.jpg",
-        "miniImage2": "/src/assets/mini-images/zekedual.jpg"
-      },
-      {
-        "title": "Fiona",
-        "src": "/src/assets/images/Fiona.jpg",
-        "miniImage1": "/src/assets/mini-images/healer.jpg",
-        "miniImage2": "/src/assets/mini-images/alteredelement.jpg"
-      },
-      {
-        "title": "Mimi",
-        "src": "/src/assets/images/mimi1.jpg",
-        "miniImage1": "/src/assets/mini-images/tank.jpg",
-        "miniImage2": "/src/assets/mini-images/voltelement.jpg"
-      },
-      {
-        "title": "Feise",
-        "src": "/src/assets/images/feise.jpg",
-        "miniImage1": "/src/assets/mini-images/dps.jpg",
-        "miniImage2": "/src/assets/mini-images/fireelement.jpg"
-      },
-      {
-        "title": "Ling Han",
-        "src": "/src/assets/images/linghan.jpg",
-        "miniImage1": "/src/assets/mini-images/dps.jpg",
-        "miniImage2": "/src/assets/mini-images/frostelement.jpg"
-      }
-      
-    ],
-    "recommended_matrice": [
-      {
-        "title": "Nan Yin",
-        "src": "/public/matrices/nanyinmatrice.jpg",
-        "quantity": "X4"
-      },
-      {
-        "title": "Scylla",
-        "src": "/public/matrices/scyllamatrice.jpg",
-        "quantity": "X2"
-      },
-      {
-        "title": "Lyra",
-        "src": "/public/matrices/lyramatrice.jpg",
-        "quantity": "X2"
-      }
-
     ]
   },
   {
@@ -1426,7 +1343,6 @@
     "awaken": "Final damage is increased by 18% When equipped with Equilibrium, physical damage dealt is increased by 16% against targets below 80% HP. Each equipped physical weapon increases Equilibrium's normal attacks damage by 30%, up to 60%.",
     "awaken_title": "Awaken: Laws And Scales",
     "release_date": "DECEMBER 19, 2023",
-    "src_video": "https://www.youtube.com/embed/QK4J9EsoqWs?si=KR86K5mzfTqNfswj",
     "attacks": [
       {
         "name": "Ink Stain Glitter",
@@ -1474,39 +1390,6 @@
         "name": "Cloud-Bursting Meteorite",
         "description": "When weapon charge is full or Phantasia is triggered, upon switching to this weapon, remove all debuffs from the Wanderer and causes Equilibrium to spin at high speed, sending the wanderer forward and dealing damage equal to 3,990% of ATK to enemies in its path. During this period, gain damage immunity for 2.6 seconds [unavailable in Apex League]."
       }
-    ],
-    "recommended_pairing": [
-      {
-        "title": "Zeke",
-        "src": "/src/assets/images/zeke.jpg",
-        "miniImage1": "/src/assets/mini-images/dps.jpg",
-        "miniImage2": "/src/assets/mini-images/zekedual.jpg"
-      },
-      {
-        "title": "Nan Yin",
-        "src": "/src/assets/images/nanyin.jpg",
-        "miniImage1": "/src/assets/mini-images/dps.jpg",
-        "miniImage2": "/src/assets/mini-images/alteredelement.jpg"
-      }
-      
-    ],
-    "recommended_matrice": [
-      {
-        "title": "Yan Miao",
-        "src": "/public/matrices/yanmiaomatrice.jpg",
-        "quantity": "X4"
-      },
-      {
-        "title": "Samir",
-        "src": "/public/matrices/samirmatrice.jpg",
-        "quantity": "X2"
-      },
-      {
-        "title": "Lyra",
-        "src": "/public/matrices/lyramatrice.jpg",
-        "quantity": "X2"
-      }
-
     ]
   }
 ]

@@ -25,6 +25,10 @@
     margin-top: 15px
 }
 
+.contenedordeversiones{
+    display: flex;
+    justify-content: center;
+}
 
 @media (max-width: 767px) {
     .titulo-matrice {
