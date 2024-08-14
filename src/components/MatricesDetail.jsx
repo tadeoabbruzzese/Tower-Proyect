@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'; // Importa el componente Link
 
 function shouldShowThirdMiniImage(title) {
   // Lista de títulos que deberían mostrar la tercera mini imagen
-  const titlesWithThirdMiniImage = ["Yan Miao", "Nan Yin", "Marc", "Bayuekui"];
+  const titlesWithThirdMiniImage = ["Marc", "Bayuekui"];
 
   // Comprueba si el título está en la lista
   return titlesWithThirdMiniImage.includes(title);
@@ -26,9 +26,11 @@ function MatricesDetail() {
       .catch((error) => console.error('Error al cargar el JSON', error));
   }, []);
 
+  const reversedImagesData = imagesData.slice().reverse();
+
   return (
     <div className="image-grid">
-      {imagesData.map((image) => (
+      {reversedImagesData.map((image) => (
         <Link to={`/matrices/${image.title}`} key={image.id}>
           <div className="image-item">
             <div className="image-box">

@@ -6,7 +6,7 @@ import DevNotesPage from '../pages/DevNotesPage/DevNotesPage';
 
 function shouldShowThirdMiniImage(title) {
   // Lista de títulos que deberían mostrar la tercera mini imagen
-  const titlesWithThirdMiniImage = ["Yan Miao", "Nan Yin", "Marc", "Bayuekui"];
+  const titlesWithThirdMiniImage = ["Marc", "Bayuekui"];
 
   // Comprueba si el título está en la lista
   return titlesWithThirdMiniImage.includes(title);

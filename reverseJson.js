@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const fileName = 'cnversion.json';  // Reemplaza 'tu_archivo.json' con el nombre de tu archivo JSON
+const fileName = 'matrice.json';  // Reemplaza 'tu_archivo.json' con el nombre de tu archivo JSON
 
 fs.readFile(fileName, 'utf8', (err, data) => {
   if (err) {

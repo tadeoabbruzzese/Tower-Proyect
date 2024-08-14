@@ -298,5 +298,79 @@
     "miniImage1": "src/assets/mini-images/dps.jpg",
     "miniImage2": "src/assets/mini-images/zekedual.jpg",
     "miniTag": "CN"
+  },
+  {
+    "id": 37,
+    "src": "src/assets/images/brevey.jpg",
+    "alt": "Imagen 37",
+    "title": "Brevey",
+    "miniImage1": "src/assets/mini-images/healer.jpg",
+    "miniImage2": "src/assets/mini-images/zekedual.jpg"
+  },
+  {
+    "id": 38,
+    "src": "src/assets/images/plotti.jpg",
+    "alt": "Imagen 38",
+    "title": "Plotti",
+    "miniImage1": "src/assets/mini-images/dps.jpg",
+    "miniImage2": "src/assets/mini-images/dual_flame_physical.jpg"
+  },
+  {
+    "id": 39,
+    "src": "src/assets/images/yanuo.jpg",
+    "alt": "Imagen 39",
+    "title": "Yanuo",
+    "miniImage1": "src/assets/mini-images/dps.jpg",
+    "miniImage2": "src/assets/mini-images/dual_frost_volt.jpg"
+  },
+  {
+    "id": 40,
+    "src": "src/assets/images/asuka.jpg",
+    "alt": "Imagen 40",
+    "title": "Asuka",
+    "miniImage1": "src/assets/mini-images/tank.jpg",
+    "miniImage2": "src/assets/mini-images/zekedual.jpg"
+  },
+  {
+    "id": 41,
+    "src": "src/assets/images/rei_ayanami.jpg",
+    "alt": "Imagen 41",
+    "title": "Ayanami Rei",
+    "miniImage1": "src/assets/mini-images/dps.jpg",
+    "miniImage2": "src/assets/mini-images/dual_volt_frost.jpg"
+  },
+  {
+    "id": 42,
+    "src": "src/assets/images/jiyu.jpg",
+    "alt": "Imagen 42",
+    "title": "Ji Yu",
+    "miniImage1": "src/assets/mini-images/dps.jpg",
+    "miniImage2": "src/assets/mini-images/dual_flame_physical.jpg"
+  },
+  {
+    "id": 43,
+    "src": "src/assets/images/loslyn.jpg",
+    "alt": "Imagen 43",
+    "title": "Loslyn",
+    "miniImage1": "src/assets/mini-images/dps.jpg",
+    "miniImage2": "src/assets/mini-images/dual_frost_volt.jpg",
+    "miniTag": ""
+  },
+  {
+    "id": 44,
+    "src": "src/assets/images/yanmiao.jpg",
+    "alt": "Imagen 44",
+    "title": "Anka",
+    "miniImage1": "src/assets/mini-images/dps.jpg",
+    "miniImage2": "src/assets/mini-images/zekedual.jpg"
+  },
+  {
+    "id": 45,
+    "src": "src/assets/images/yanmiao.jpg",
+    "alt": "Imagen 45",
+    "title": "Nora",
+    "miniImage1": "src/assets/mini-images/dps.jpg",
+    "miniImage2": "src/assets/mini-images/zekedual.jpg",
+    "miniTag": "CN"
   }
 ]
