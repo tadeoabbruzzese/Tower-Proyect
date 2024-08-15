@@ -29,8 +29,12 @@ blockquote footer {
     color: #666;
   }
 
+.contenedor{
+  z-index: 1;
+}
+
 .contenedor-personaje{
-    max-width: 500px;
+    width: 50%;
     margin: 0 auto
 }
 
@@ -49,22 +53,58 @@ blockquote footer {
 .weapon-passive{
   margin-top: 20px;
 }
-/* Agrega estas reglas a tu archivo CSS */
 
-/* Agrega estas reglas a tu archivo CSS */
+.weapon-effects, .element-resonance, .weapon-passive, .aditional_effect{
+  text-align: justify;
+}
+
+.aditional_effect{
+  padding-top: 10px;
+}
+
+iframe{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.table-advancements {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-advancements th, .table-advancements td {
+  border: 1px solid;
+  padding: 8px;
+  text-align: center; /* Centra el contenido horizontalmente */
+  vertical-align: middle; /* Centra el contenido verticalmente */
+}
 
 
-  /* ButtonStyled.css */
 
-  /* SLIDER CH Y GLOBAL */
-    /* ButtonStyled.css */
-/* ButtonStyled.css */
-/* ButtonStyled.css */
+.td-advancement {
+  vertical-align: top;
+  font-size: 16px;
+}
 
-  
 
-  /* END OF SLIDER */
-  
+
+/* .character-image {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 50%;
+  opacity: 0.5; 
+} */
+
+.profile-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+
+
 
 /* Media Query para dispositivos móviles */
 @media only screen and (max-width: 600px) {

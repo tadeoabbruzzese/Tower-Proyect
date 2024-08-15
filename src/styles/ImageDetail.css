@@ -14,7 +14,8 @@
 
 .subtitulo{
     text-align: center;
-    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .contenedor{
@@ -25,6 +26,9 @@
 .titulo{
     font-size: 20px;
     margin: 20px;
+}
+.advancements{
+    margin-top: 10px
 }
 
 /* .weapon-effects, .element-resonance, .advancements{
@@ -39,8 +43,7 @@
 }
 
 .parrafo-weapon{
-    text-align: center;
-    font-size: 22px;
+    font-size: 30px;
     margin-bottom: 20px;
     font-weight: 600;
 }
@@ -51,6 +54,11 @@
 
 .parrafo-weapon{
     margin-top: 20px
+}
+.parrafo-advancements{
+    font-size: 2em;
+    margin-top: 2em;
+    
 }
 
 
@@ -79,6 +87,7 @@
         margin: 10px; /* Ajuste del margen para dispositivos móviles */
         font-weight: normal; /* Cambio en el peso del texto */
     }
+   
 
     .stars {
         margin-bottom: 10px; /* Ajuste del margen inferior */

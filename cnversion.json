@@ -1391,5 +1391,112 @@
         "description": "When weapon charge is full or Phantasia is triggered, upon switching to this weapon, remove all debuffs from the Wanderer and causes Equilibrium to spin at high speed, sending the wanderer forward and dealing damage equal to 3,990% of ATK to enemies in its path. During this period, gain damage immunity for 2.6 seconds [unavailable in Apex League]."
       }
     ]
+  },
+  {
+    "id": 40,
+    "src": "/background/brevey_background.png",
+    "alt": "Imagen 40",
+    "title": "Brevey",
+    "weapon": "Brevey",
+    "weapon_effects": "When the weapon is fully charged, the next attack applies Force Impact on the enemy for 45 seconds, increasing their frost and volt damage taken by 10% (and an additional 15% in team play). Force Impact replaces the target's grievous status, and targets with Force Impact cannot become grievous. Frost attacks will freeze targets with Force Impact for 2 seconds, and volt attacks will remove the buffs on targets with Force Impact. This effect can only trigger 1 time every 15 seconds on the same target.",
+    "element_resonance": "Increase volt ATK by 15% and volt resistance by 25%. Activate by equipping 2 or more volt weapons. This set effect works in the off-hand slot. Cannot stack with effects of the same type.",
+    "secondary_elemental_resonance": "Increase frost ATK by 15% and frost resistance by 25%. Activate by equipping 2 or more frost weapons. This set effect works in the off-hand slot. Cannot stack with effects of the same type.",
+    "weapon_passive": "When equipped with Pactcrest ☆ Metz, weapon discharge skills deal initial damage equal to 46.87% of volt ATK plus 0.62% of the Wanderer's Max HP plus 23.43% of the sum of all the Wanderer's resistance types plus 85.93% of crit to nearby targets. While in the combat state, after every 0.5 seconds, the next Swift Cut damage will be increased by an additional 1 time, up to a maximum of 30 times. When multiple Swift Cut damages exist, the highest initial value is used for calculation. Swift Cut damage counts as discharge damage. If any flame or physical weapon is equipped, Thunderbolt damage is multiplied by 1.3. In addition, Thunderbolt damage is not affected by any damage boost effects except from titan equipment's rare stats, and won't trigger additional attack effects.",
+    "aditional_effect": "When challenging Bygone Phantasm and Sequential Phantasm with Pactcrest ☆ Metz equipped, gain an additional 15 seconds to the challenge duration. When challenging Origin of War, for every 1 Pactcrest ☆ Metz equipped by the team, the team gains an additional 25 seconds to the challenge duration, up to 50 seconds.",
+    "advancements": {
+      "1★": "1★ Each Pink Chain Frenzy or Metz off-hand coordinated attack hit recovers HP equal to 12% of ATK. In team play, each hit recovers HP by 18%. When a Bestie takes damage that reduces their HP below 25% of their max HP, also recover HP equal to 30% of their Max HP and grant them damage immunity for 3 seconds. If the damage is fatal, then additionally prevent the lethal effect 1 time. Can be triggered up to 1 time every 60 seconds.",
+      "3★": "3★ When non-Benediction Resonances are active, gain 2 additional uses of Metz Energy Wave, and increase volt damage and frost damage to bosses by 10%. When Benediction Resonance is active, gain 1 additional use of Million-Metz Shockwave, and now recover HP equal to 15% of the Bestie's Max HP to Bestie.",
+      "5★": "5★ Increase damage dealt by Metz off-hand coordinated attack and Metz Energy Wave by 30%.",
+      "6★": "6★ While Pact Amplification is active, increase volt and frost damage boost effects by 10% and 4% respectively. Metz Halo increases nearby teammates' final damage by 20% and shatter by 25%. This effect does not stack."
+    },
+    "matrice_src": "/matrices/brevey_matrice.jpg",
+    "matrice_2p": "Increases physical attack and flame attack by 20%/25%/30%/35%. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
+    "matrice_4p": "When equipped with at least 1 physical weapon, all elemental damage is increased by 28%/32%/36%/42%. When equipped with Equilibrium, all elemental damage is additionally increased by 21%. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
+    "miniImage1": "src/assets/mini-images/dps.jpg",
+    "miniImage2": "src/assets/mini-images/fireelement.jpg",
+    "shatter": "12.00",
+    "charge": "10.00",
+    "awaken": "Increase final damage by 18%. When Pactcrest ☆ Metz is equipped, increase final damage by an additional 6%. When Benediction Resonance is active, the additional increase in final damage affects nearby teammates as well. This effect does not stack.",
+    "awaken_title": "Awaken: Laws And Scales",
+    "release_date": "DECEMBER 19, 2023",
+    "src_video": "https://www.youtube.com/embed/MKWtkqyJsYc?si=26EdNQJ1UgawwAT-",
+    "attacks": [
+      {
+        "name": "Firefly Wave",
+        "description": "While on the ground, use normal attack to launch 5 attacks in a row. First Attack: Deal damage equal to 112% of ATK plus 707 and knock the target back. Second Attack: Deal damage equal to 154% of ATK plus 973 and suspend the target. Third Attack: Deal damage equal to 220% of ATK plus 1389 and knock the target down. Fourth Attack: Deal damage up to 243% of ATK plus 1535 and suspend the target. Fifth Attack: Deal damage equal to 229% of ATK plus 1446 and knock the target down.After triggering Firefly Wave, tap and hold normal attack to trigger Phantasmic Rhythm. While in the combat state, when Pactcrest ☆ Metz is in the off-hand slot, Metz remains on the battlefield for coordinated attacks. Metz is considered a summon, and each attack deals damage equal to 20% of ATK to nearby targets. The type of elemental damage dealt will be that of the current weapon. When Benediction Resonance is active: When in the non-combat state, the first attack from Firefly Wave appoints 1 teammate as 'Bestie' and summons up to 1 Metz to follow the Bestie. Using Metz Halo recovers HP equal to 100% of the Wanderer's ATK to nearby teammates every second, and increases their final damage by 5%. This effect does not stack. Metz stops following the Bestie when the Wanderer is knocked down, or when Metz gets too far from the Wanderer."
+      },
+      {
+        "name": "Flying Star Wave",
+        "description": "While airborne, use normal attack to launch 5 attacks in a row in mid-air, consuming endurance. First Attack: Deal damage equal to 112% of ATK plus 707. Second Attack: Deal damage equal to 154% of ATK plus 973. Third Attack: Deal damage equal to 220% of ATK plus 1389. Fourth Attack: Deal damage up to 243% of ATK plus 1535. Fifth Attack: Deal damage equal to 229% of ATK plus 1446."
+      },
+      {
+        "name": "Pink Chain Frenzy ",
+        "description": "When on the ground, tap and hold normal attack to trigger Pink Chain Frenzy. Command Metz to attack a target, during which the Wanderer gains hyperbody and consumes endurance. Every attack that lands deals damage equal to 167% of ATK plus 1055 to nearby targets."
+      },
+      {
+        "name": "Phantasmic Rhythm",
+        "description": "While using normal attack on the ground, tap and hold normal attack when using the first to fourth normal attacks to trigger Phantasmic Rhythm. Transform into Metz and dash forward, dealing damage equal to 282% of ATK plus 1781 to the targets ahead, then pounce on a target, dealing damage equal to 282% of ATK plus 1781."
+      },
+      {
+        "name": "Familiar Descent",
+        "description": "Tap and hold normal attack while airborne (tap when a target is available), or use normal attack while climbing, jumping backward, or using the Jetpack to trigger Familiar Descent. While falling, deal damage equal to 173% of ATK plus 1093 each time the target is hit."
+      }
+    ],
+    "dodges": [
+      {
+        "name": "Strolling Flash",
+        "description": "Use normal attack during the short perfect dodge window (use a directional button before dodging) to trigger Strolling Flash, dealing damage up to 244% of ATK plus 1541 to targets hit."
+      },
+      {
+        "name": "MetzZZz",
+        "description": "Use normal attack during the short period after dodging to trigger MetzZZz. Metz crashes into the ground, dealing damage equal to 169% of ATK plus 1067 to targets ahead."
+      }
+      
+    ],
+    "skills": [
+      {
+        "name": "Million-Metz Shockwave",
+        "description": "After using Million-Metz Shockwave, the Wanderer enters Pact Amplification for 30 seconds: When Pactcrest ☆ Metz is in the main slot, increase the Wanderer's volt damage by 25%. When Pactcrest ☆ Metz is in the off-hand slot, increase the Wanderer's frost damage by 10%. Cooldown: 30 seconds.When non-Benediction Resonances are active: Deal damage equal to 585% of ATK plus 3695 to nearby targets, and apply Force Impact on them. When Million-Metz Shockwave is on cooldown, dealing accumulated damage equal to 100 times of ATK during Pact Amplification grants 1 use of Metz Energy Wave each time. Metz Energy Wave: Deal damage equal to 1,800% of ATK to nearby targets. Gain up to 1 use every 10 seconds. Using Million-Metz Shockwave again during Pact Amplification resets the duration of Pact Amplification and accumulated damage. When Pact Amplification ends naturally, unused Metz Energy Waves are accumulated, and deal damage equal to unused charges times 1,200% of ATK. When Benediction Resonance is active: Using skills deals damage equal to 585% of ATK plus 3695 and applies Force Impact on targets hit. Recover HP equal to 400% of ATK to the Wanderer and nearby teammates, and recover an additional 10% of the Bestie's Max HP. Remove debuffs and control effects on the Wanderer and nearby teammates (including Graying Bite), and grant immunity to debuffs and control effects for 10 seconds. Cooldown: 15 seconds."
+      }
+    ],
+    "discharges": [
+      {
+        "name": "Strange Symphonic Realm",
+        "description": "When weapon charge is full or Phantasia is triggered, upon switching to this weapon, remove all debuffs from the Wanderer and summon a Strange Symphonic Realm, dealing damage equal to 811% of ATK plus 5122 to nearby targets, during which damage immunity lasts for 1.5 seconds (unavailable in Apex League). When Benediction Resonance is active: Remove all debuffs and control effects from the Wanderer and nearby teammates (including Graying Bite), and grant them immunity to debuffs and control effects for 10 seconds. The Strange Symphonic Realm transforms nearby targets hit and non-teammate players into Metz (not effective against bosses, and unavailable in Apex League) for 4 seconds. Each target can be transformed up to 1 time every 30 seconds."
+      }
+    ],
+    "recommended_pairing": [
+      {
+        "title": "Ayanami Rei",
+        "src": "/src/assets/images/rei_ayanami.jpg",
+        "miniImage1": "/src/assets/mini-images/dps.jpg",
+        "miniImage2": "/src/assets/mini-images/dual_volt_frost.jpg"
+      },
+      {
+        "title": "Nora",
+        "src": "/src/assets/images/nora.png",
+        "miniImage1": "/src/assets/mini-images/dps.jpg",
+        "miniImage2": "/src/assets/mini-images/alteredelement.jpg"
+      }
+      
+    ],
+    "recommended_matrice": [
+      {
+        "title": "Brevey",
+        "src": "/matrices/brevey_matrice.jpg",
+        "quantity": "X4"
+      },
+      {
+        "title": "Samir",
+        "src": "/matrices/samirmatrice.jpg",
+        "quantity": "X2"
+      },
+      {
+        "title": "Scylla",
+        "src": "/public/matrices/scyllamatrice.jpg",
+        "quantity": "X2"
+      }
+
+    ]
   }
 ]

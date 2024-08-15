@@ -305,7 +305,7 @@
     "alt": "Imagen 37",
     "title": "Brevey",
     "miniImage1": "src/assets/mini-images/healer.jpg",
-    "miniImage2": "src/assets/mini-images/zekedual.jpg"
+    "miniImage2": "src/assets/mini-images/dual_volt_frost.jpg"
   },
   {
     "id": 38,
@@ -358,7 +358,7 @@
   },
   {
     "id": 44,
-    "src": "src/assets/images/yanmiao.jpg",
+    "src": "src/assets/images/anka.jpg",
     "alt": "Imagen 44",
     "title": "Anka",
     "miniImage1": "src/assets/mini-images/dps.jpg",
@@ -366,11 +366,11 @@
   },
   {
     "id": 45,
-    "src": "src/assets/images/yanmiao.jpg",
+    "src": "src/assets/images/nora.png",
     "alt": "Imagen 45",
     "title": "Nora",
     "miniImage1": "src/assets/mini-images/dps.jpg",
-    "miniImage2": "src/assets/mini-images/zekedual.jpg",
+    "miniImage2": "src/assets/mini-images/alteredelement.jpg",
     "miniTag": "CN"
   }
 ]

@@ -56,7 +56,7 @@ const WeaponInfo = ({ version }) => {
   
 
   return (
-    <>
+    <div className='container-weapon-effects'>
 
       {/* ATTACKS */}
       <div>
@@ -253,7 +253,7 @@ const WeaponInfo = ({ version }) => {
 
       
 
-    </>
+    </div>
   );
 };
 

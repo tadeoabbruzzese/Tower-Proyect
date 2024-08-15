@@ -1508,5 +1508,566 @@
       }
 
     ]
+  },
+  {
+    "id": 40,
+    "src": "/background/brevey_background.png",
+    "alt": "Imagen 40",
+    "title": "Brevey",
+    "weapon": "Brevey",
+    "weapon_effects": "When the weapon is fully charged, the next attack applies Force Impact on the enemy for 45 seconds, increasing their frost and volt damage taken by 10% (and an additional 15% in team play). Force Impact replaces the target's grievous status, and targets with Force Impact cannot become grievous. Frost attacks will freeze targets with Force Impact for 2 seconds, and volt attacks will remove the buffs on targets with Force Impact. This effect can only trigger 1 time every 15 seconds on the same target.",
+    "element_resonance": "Increase volt ATK by 15% and volt resistance by 25%. Activate by equipping 2 or more volt weapons. This set effect works in the off-hand slot. Cannot stack with effects of the same type.",
+    "secondary_elemental_resonance": "Increase frost ATK by 15% and frost resistance by 25%. Activate by equipping 2 or more frost weapons. This set effect works in the off-hand slot. Cannot stack with effects of the same type.",
+    "weapon_passive": "When equipped with Pactcrest ☆ Metz, weapon discharge skills deal initial damage equal to 46.87% of volt ATK plus 0.62% of the Wanderer's Max HP plus 23.43% of the sum of all the Wanderer's resistance types plus 85.93% of crit to nearby targets. While in the combat state, after every 0.5 seconds, the next Swift Cut damage will be increased by an additional 1 time, up to a maximum of 30 times. When multiple Swift Cut damages exist, the highest initial value is used for calculation. Swift Cut damage counts as discharge damage. If any flame or physical weapon is equipped, Thunderbolt damage is multiplied by 1.3. In addition, Thunderbolt damage is not affected by any damage boost effects except from titan equipment's rare stats, and won't trigger additional attack effects.",
+    "aditional_effect": "When challenging Bygone Phantasm and Sequential Phantasm with Pactcrest ☆ Metz equipped, gain an additional 15 seconds to the challenge duration. When challenging Origin of War, for every 1 Pactcrest ☆ Metz equipped by the team, the team gains an additional 25 seconds to the challenge duration, up to 50 seconds.",
+    "advancements": {
+      "1★": "1★ Each Pink Chain Frenzy or Metz off-hand coordinated attack hit recovers HP equal to 12% of ATK. In team play, each hit recovers HP by 18%. When a Bestie takes damage that reduces their HP below 25% of their max HP, also recover HP equal to 30% of their Max HP and grant them damage immunity for 3 seconds. If the damage is fatal, then additionally prevent the lethal effect 1 time. Can be triggered up to 1 time every 60 seconds.",
+      "3★": "3★ When non-Benediction Resonances are active, gain 2 additional uses of Metz Energy Wave, and increase volt damage and frost damage to bosses by 10%. When Benediction Resonance is active, gain 1 additional use of Million-Metz Shockwave, and now recover HP equal to 15% of the Bestie's Max HP to Bestie.",
+      "5★": "5★ Increase damage dealt by Metz off-hand coordinated attack and Metz Energy Wave by 30%.",
+      "6★": "6★ While Pact Amplification is active, increase volt and frost damage boost effects by 10% and 4% respectively. Metz Halo increases nearby teammates' final damage by 20% and shatter by 25%. This effect does not stack."
+    },
+    "matrice_src": "/matrices/brevey_matrice.jpg",
+    "matrice_2p": "Increases physical attack and flame attack by 20%/25%/30%/35%. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
+    "matrice_4p": "When equipped with at least 1 physical weapon, all elemental damage is increased by 28%/32%/36%/42%. When equipped with Equilibrium, all elemental damage is additionally increased by 21%. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
+    "miniImage1": "src/assets/mini-images/dps.jpg",
+    "miniImage2": "src/assets/mini-images/fireelement.jpg",
+    "shatter": "12.00",
+    "charge": "10.00",
+    "awaken": "Increase final damage by 18%. When Pactcrest ☆ Metz is equipped, increase final damage by an additional 6%. When Benediction Resonance is active, the additional increase in final damage affects nearby teammates as well. This effect does not stack.",
+    "awaken_title": "Awaken: Laws And Scales",
+    "release_date": "DECEMBER 19, 2023",
+    "src_video": "https://www.youtube.com/embed/MKWtkqyJsYc?si=26EdNQJ1UgawwAT-",
+    "attacks": [
+      {
+        "name": "Firefly Wave",
+        "description": "While on the ground, use normal attack to launch 5 attacks in a row. First Attack: Deal damage equal to 112% of ATK plus 707 and knock the target back. Second Attack: Deal damage equal to 154% of ATK plus 973 and suspend the target. Third Attack: Deal damage equal to 220% of ATK plus 1389 and knock the target down. Fourth Attack: Deal damage up to 243% of ATK plus 1535 and suspend the target. Fifth Attack: Deal damage equal to 229% of ATK plus 1446 and knock the target down.After triggering Firefly Wave, tap and hold normal attack to trigger Phantasmic Rhythm. While in the combat state, when Pactcrest ☆ Metz is in the off-hand slot, Metz remains on the battlefield for coordinated attacks. Metz is considered a summon, and each attack deals damage equal to 20% of ATK to nearby targets. The type of elemental damage dealt will be that of the current weapon. When Benediction Resonance is active: When in the non-combat state, the first attack from Firefly Wave appoints 1 teammate as 'Bestie' and summons up to 1 Metz to follow the Bestie. Using Metz Halo recovers HP equal to 100% of the Wanderer's ATK to nearby teammates every second, and increases their final damage by 5%. This effect does not stack. Metz stops following the Bestie when the Wanderer is knocked down, or when Metz gets too far from the Wanderer."
+      },
+      {
+        "name": "Flying Star Wave",
+        "description": "While airborne, use normal attack to launch 5 attacks in a row in mid-air, consuming endurance. First Attack: Deal damage equal to 112% of ATK plus 707. Second Attack: Deal damage equal to 154% of ATK plus 973. Third Attack: Deal damage equal to 220% of ATK plus 1389. Fourth Attack: Deal damage up to 243% of ATK plus 1535. Fifth Attack: Deal damage equal to 229% of ATK plus 1446."
+      },
+      {
+        "name": "Pink Chain Frenzy ",
+        "description": "When on the ground, tap and hold normal attack to trigger Pink Chain Frenzy. Command Metz to attack a target, during which the Wanderer gains hyperbody and consumes endurance. Every attack that lands deals damage equal to 167% of ATK plus 1055 to nearby targets."
+      },
+      {
+        "name": "Phantasmic Rhythm",
+        "description": "While using normal attack on the ground, tap and hold normal attack when using the first to fourth normal attacks to trigger Phantasmic Rhythm. Transform into Metz and dash forward, dealing damage equal to 282% of ATK plus 1781 to the targets ahead, then pounce on a target, dealing damage equal to 282% of ATK plus 1781."
+      },
+      {
+        "name": "Familiar Descent",
+        "description": "Tap and hold normal attack while airborne (tap when a target is available), or use normal attack while climbing, jumping backward, or using the Jetpack to trigger Familiar Descent. While falling, deal damage equal to 173% of ATK plus 1093 each time the target is hit."
+      }
+    ],
+    "dodges": [
+      {
+        "name": "Strolling Flash",
+        "description": "Use normal attack during the short perfect dodge window (use a directional button before dodging) to trigger Strolling Flash, dealing damage up to 244% of ATK plus 1541 to targets hit."
+      },
+      {
+        "name": "MetzZZz",
+        "description": "Use normal attack during the short period after dodging to trigger MetzZZz. Metz crashes into the ground, dealing damage equal to 169% of ATK plus 1067 to targets ahead."
+      }
+      
+    ],
+    "skills": [
+      {
+        "name": "Million-Metz Shockwave",
+        "description": "After using Million-Metz Shockwave, the Wanderer enters Pact Amplification for 30 seconds: When Pactcrest ☆ Metz is in the main slot, increase the Wanderer's volt damage by 25%. When Pactcrest ☆ Metz is in the off-hand slot, increase the Wanderer's frost damage by 10%. Cooldown: 30 seconds.When non-Benediction Resonances are active: Deal damage equal to 585% of ATK plus 3695 to nearby targets, and apply Force Impact on them. When Million-Metz Shockwave is on cooldown, dealing accumulated damage equal to 100 times of ATK during Pact Amplification grants 1 use of Metz Energy Wave each time. Metz Energy Wave: Deal damage equal to 1,800% of ATK to nearby targets. Gain up to 1 use every 10 seconds. Using Million-Metz Shockwave again during Pact Amplification resets the duration of Pact Amplification and accumulated damage. When Pact Amplification ends naturally, unused Metz Energy Waves are accumulated, and deal damage equal to unused charges times 1,200% of ATK. When Benediction Resonance is active: Using skills deals damage equal to 585% of ATK plus 3695 and applies Force Impact on targets hit. Recover HP equal to 400% of ATK to the Wanderer and nearby teammates, and recover an additional 10% of the Bestie's Max HP. Remove debuffs and control effects on the Wanderer and nearby teammates (including Graying Bite), and grant immunity to debuffs and control effects for 10 seconds. Cooldown: 15 seconds."
+      }
+    ],
+    "discharges": [
+      {
+        "name": "Strange Symphonic Realm",
+        "description": "When weapon charge is full or Phantasia is triggered, upon switching to this weapon, remove all debuffs from the Wanderer and summon a Strange Symphonic Realm, dealing damage equal to 811% of ATK plus 5122 to nearby targets, during which damage immunity lasts for 1.5 seconds (unavailable in Apex League). When Benediction Resonance is active: Remove all debuffs and control effects from the Wanderer and nearby teammates (including Graying Bite), and grant them immunity to debuffs and control effects for 10 seconds. The Strange Symphonic Realm transforms nearby targets hit and non-teammate players into Metz (not effective against bosses, and unavailable in Apex League) for 4 seconds. Each target can be transformed up to 1 time every 30 seconds."
+      }
+    ],
+    "recommended_pairing": [
+      {
+        "title": "Ayanami Rei",
+        "src": "/src/assets/images/rei_ayanami.jpg",
+        "miniImage1": "/src/assets/mini-images/dps.jpg",
+        "miniImage2": "/src/assets/mini-images/dual_volt_frost.jpg"
+      },
+      {
+        "title": "Nora",
+        "src": "/src/assets/images/nora.png",
+        "miniImage1": "/src/assets/mini-images/dps.jpg",
+        "miniImage2": "/src/assets/mini-images/alteredelement.jpg"
+      }
+      
+    ],
+    "recommended_matrice": [
+      {
+        "title": "Brevey",
+        "src": "/matrices/brevey_matrice.jpg",
+        "quantity": "X4"
+      },
+      {
+        "title": "Samir",
+        "src": "/matrices/samirmatrice.jpg",
+        "quantity": "X2"
+      },
+      {
+        "title": "Scylla",
+        "src": "/public/matrices/scyllamatrice.jpg",
+        "quantity": "X2"
+      }
+
+    ]
+  },
+  {
+    "id": 41,
+    "src": "/background/plotti_background.png",
+    "alt": "Imagen 41",
+    "title": "Plotti",
+    "weapon": "Plotti",
+    "weapon_effects": "When the weapon is fully charged, the next attack inflicts Armor Dissolve on the target for 45 seconds, increasing their flame and physical damage taken by 10% (and an additional 15% in team play). This effect will replace the grievous status on the target, and targets with this effect cannot become grievous. Physical attacks will stun targets under the dissolve effect for 2 seconds, and flame attacks will decrease the targets' speed by 50% for 5 seconds. This effect can only trigger 1 time every 15 seconds on the same target.",
+    "element_resonance": "Increase flame ATK by 15% and flame resistance by 25%. Activate by equipping 2 or more flame weapons. This set effect works in the off-hand slot. Cannot stack with other Flame Resonance or Flame reaction effects, with Flame Resonance taking precedence.",
+    "secondary_elemental_resonance": "Increase physical ATK by 15% and physical resistance by 25%. Activate by equipping 2 or more physical weapons. This set effect works in the off-hand slot. Cannot stack with other Physical Resonance or Physical reaction effects, with Physical Resonance taking precedence.",
+    "weapon_passive": "After using Mirror Image, deal damage equal to 87.5% of flame ATK plus 12.5% of the Wanderer's Max HP plus 45% of the sum of all the Wanderer's resistance types plus 168.8% of crit to the target every second for 30 seconds. Multiple Detachment damages will not stack. Poppa damage counts as skill damage. If there is 1 volt or frost weapon equipped, then Poppa's damage is multiplied by 1.3. In addition, Poppa's damage is not affected by any damage boost effects except from titan equipment's rare stats, and won't trigger additional attack effects.",
+    "aditional_effect": "",
+    "advancements": {
+      "1★": "1★ While Poppa is Here is active, Poppa will launch a Heavy Energy Round II for every 7 explosive shot fired, dealing damage equal to 590% of ATK to nearby targets and then splits into several high explosives, dealing damage equal to 660% of ATK to nearby targets.",
+      "3★": "3★ After Poppa appears, increase final damage by 12% and physical damage by 6% for 25 seconds. After Poppa appears 5 times, the next use of Mirror Image will refresh Phantasia Cooldown and immediately trigger Phantasia.",
+      "5★": "5★ Reduce Heavy Energy Round I's trigger interval to 6 seconds. When firing Heavy Energy Round I or Heavy Energy Round II, also fire a Healing Round that recovers 10% of the Wanderer's Max HP.",
+      "6★": "6★ Mirror (Target)'s damage reflection effect can now also affect the target. Mirror (Self)'s damage reflection ratio is increased to 30% and the maximum reflected damage is increased to 800% of the Wanderer's Max HP. Additionally, while Mirror (Self) is in effect, every time the Wanderer takes damage, additionally block damage equal to 10% of Max HP (excess damage will be taken normally, unavailable in Apex League). This effect can be triggered up to 1 time every 3 seconds. During cooldown, when Poppa appears and admires herself in the mirror, reduce the effect's cooldown by 1 second."
+    },
+    "matrice_src": "/matrices/plotti_matrice.jpg",
+    "matrice_2p": "Increases physical attack and flame attack by 20%/25%/30%/35%. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
+    "matrice_4p": "When equipped with at least 1 physical weapon, all elemental damage is increased by 28%/32%/36%/42%. When equipped with Equilibrium, all elemental damage is additionally increased by 21%. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
+    "miniImage1": "src/assets/mini-images/dps.jpg",
+    "miniImage2": "src/assets/mini-images/fireelement.jpg",
+    "shatter": "14.00",
+    "charge": "12.00",
+    "awaken": "Increase final damage by 18%. Increase EP-7000 Skyfire's flame damage by 30%.",
+    "release_date": "DECEMBER 19, 2023",
+    "src_video": "https://www.youtube.com/embed/ZzCjOLNdGBw?si=SvExh0n7ZUBaXHMr",
+    "attacks": [
+      {
+        "name": "Standard Protocol",
+        "description": "While on the ground, use normal attack to attack 5 times in a row. First Attack: Deal damage equal to 140% of ATK plus 3166. Second Attack: Deal damage equal to 884% of ATK plus 264. Third Attack: Deal damage equal to 1667% of ATK plus 186. Fourth Attack: Deal damage equal to 1175% of ATK plus 174. Fifth Attack: Deal damage equal to 1098% of ATK plus 501."
+      },
+      {
+        "name": "Burst Fire Protocol",
+        "description": "While airborne, use normal attack to launch 5 attacks in a row in mid-air, consuming endurance. First Attack: Deal damage equal to 140% of ATK plus 3166. Second Attack: Deal damage equal to 884% of ATK plus 264. Third Attack: Deal damage equal to 1667% of ATK plus 186. Fourth Attack: Deal damage equal to 1175% of ATK plus 174. Fifth Attack: Deal damage equal to 1098% of ATK plus 501."
+      },
+      {
+        "name": "Rapid Fire Protocol",
+        "description": "While on the ground, tap and hold normal attack when using the second to fourth normal attacks to trigger Rapid Fire Protocol and consume endurance. Launch an attack ahead, dealing damage equal to 90% of ATK plus 569 to nearby targets and suspending them."
+      },
+      {
+        "name": "Energizing Protocol",
+        "description": "While on the ground, tap and hold normal attack to trigger a charged attack. Fire a charged shot at the target, dealing damage equal to 90% of ATK plus 569 to nearby targets upon hit."
+      },
+      {
+        "name": "Air Raid Protocol",
+        "description": "While airborne, tap and hold normal attack when using the second to fourth normal attacks to trigger an aerial branch attack and consume endurance. Launch an attack ahead, dealing damage equal to 90% of ATK plus 569 to nearby targets and suspending them."
+      },
+      {
+        "name": "Diving Protocol",
+        "description": "Hold dodge while in mid-air to trigger Diving Protocol, dealing damage equal to 289% of ATK plus 1828 upon landing."
+      },
+      {
+        "name": "Brilliant Colors",
+        "description": "When in the overworld, on the ground, and in the non-combat state, hold dodge to place fireworks of a random style that explode after a short delay."
+      }
+    ],
+    "dodges": [
+      {
+        "name": "Assault Protocol",
+        "description": "Use normal attack during the short perfect dodge window (use a directional button before dodging) to trigger Assault Protocol. Summon a missile from space and deal damage equal to 203% of ATK plus 1284 to nearby targets. While Poppa is Here is active, after triggering Assault Protocol, tap and hold normal attack to continuously fire explosive shots."
+      },
+      {
+        "name": "Propulsion Protocol",
+        "description": "Use normal attack during the short period after dodging to trigger Propulsion Protocol. Fire a laser beam and deal damage equal to 154% of ATK plus 975 to nearby targets. While Poppa is Here is active, after triggering Assault Protocol, tap and hold normal attack to continuously fire explosive shots."
+      },
+      {
+        "name": "Airborne Protocol",
+        "description": "Dodge attacks can be used while the Wanderer is airborne. For every 2 dodge attacks using EP-7000 Skyfire, Poppa appears and uses a dodge attack as well, dealing damage equal to 50% to 100% of the Wanderer's damage dealt based on Poppa's mood. After every 2 dodge attacks using EP-7000 Skyfire or 1 dodge attack using EP-7000 Skyfire while Poppa is Here is in effect, reduce Mirror Image's cooldown by 10 seconds. Can only be triggered 1 time for each Mirror Image's cooldown."
+      }
+      
+    ],
+    "skills": [
+      {
+        "name": "Mirror Image",
+        "description": "Roam between the mind and reality, creating 8 Heart Mirror Walls around the Wanderer (these count as summons) and deal damage equal to 807% of ATK plus 5094 to nearby targets. After using the skill, activate Poppa is Here for 15 seconds, gaining the ability to fly as well as improved movement speed and jumping capabilities. Normal attack now fires explosive shots that deal damage equal to 180% of ATK plus 1139 to nearby targets upon hit and consumes endurance. After an explosive shot hits the ground, it will be transmitted to a Heart Mirror Wall and fired toward the locked-on target. Cooldown: 30 seconds. After Poppa is Here naturally ends, immediately gain 300 weapon charge. During Poppa is Here, increase final damage according to the distance in height between the Wanderer and the target hit, by up to 1%. While in the combat state and Poppa is Here not active, Poppa will appear every 8 seconds and fire a Heavy Energy Round I dealing damage equal to 590% of ATK to nearby targets."
+      }
+    ],
+    "discharges": [
+      {
+        "name": "Extermination Protocol",
+        "description": "When weapon charge is full or Phantasia is triggered, remove debuffs from the Wanderer and activate the Satellite Ionic Beam upon switching to this weapon, summoning an ionic beam from the space station and dealing damage equal to 974% of ATK plus 6151 to nearby targets. At the same time, gain damage immunity for 1.5 seconds (unavailable in Apex League) and inflict Armor Dissolve on targets hit. After Extermination Protocol lands a hit, place up to 1 Mirror on both the locked-on target and the Wanderer for 45 seconds. Mirror (Target): The damage dealt by the Wanderer will be reflected by Mirrors to other targets nearby for an additional 15% damage. Mirror (Self): Ignore 15% of the target's Flame Resistance (each element's total resistance ignored cannot exceed 50%). Whenever damage is taken, bounce back 20% of the damage received (no more than 500% of the Wanderer's Max HP). This effect can be triggered up to 1 time every 3 seconds. During cooldown, after Poppa appears, she will admire her reflection in the mirror, reducing this effect's cooldown by 1 second."
+      }
+    ],
+    "recommended_pairing": [
+      {
+        "title": "Ji Yu",
+        "src": "/src/assets/images/jiyu.jpg",
+        "miniImage1": "/src/assets/mini-images/dps.jpg",
+        "miniImage2": "/src/assets/mini-images/dual_flame_physical.jpg"
+      },
+      {
+        "title": "Nora",
+        "src": "/src/assets/images/nora.png",
+        "miniImage1": "/src/assets/mini-images/dps.jpg",
+        "miniImage2": "/src/assets/mini-images/alteredelement.jpg"
+      }
+      
+    ],
+    "recommended_matrice": [
+      {
+        "title": "Plotti",
+        "src": "/matrices/plotti_matrice.jpg",
+        "quantity": "X4"
+      },
+      {
+        "title": "Samir",
+        "src": "/matrices/samirmatrice.jpg",
+        "quantity": "X2"
+      },
+      {
+        "title": "Scylla",
+        "src": "/public/matrices/scyllamatrice.jpg",
+        "quantity": "X2"
+      }
+
+    ]
+  },
+  {
+    "id": 42,
+    "src": "/background/yanuo_background.png",
+    "alt": "Imagen 42",
+    "title": "Yanuo",
+    "weapon": "Yanuo",
+    "weapon_effects": "When the weapon is fully charged, the next attack applies Force Impact on the enemy for 45 seconds, increasing their frost and volt damage taken by 10% (and an additional 15% in team play). Force Impact replaces the target's grievous status, and targets with Force Impact cannot become grievous. Frost attacks will freeze targets with Force Impact for 2 seconds, and volt attacks will remove the buffs on targets with Force Impact. This effect can only trigger 1 time every 15 seconds on the same target.",
+    "element_resonance": "Increase frost ATK by 15% and frost resistance by 25%. Activate by equipping 2 or more frost weapons. This set effect works in the off-hand slot. Cannot stack with other Frost Resonance or Frost Reaction effects, with Frost Resonance taking precedence",
+    "secondary_elemental_resonance": "Increase volt ATK by 15% and volt resistance by 25%. Activate by equipping 2 or more volt weapons. This set effect works in the off-hand slot. Cannot stack with other Volt Resonance or Volt Reaction effects, with Volt Resonance taking precedence.",
+    "weapon_passive": "When hitting any target with Wicked, deal damage equal to 205% of frost ATK plus 2.9% of Max HP plus 106% of the sum of all the Wanderer's resistance types plus 3.9% of crit to nearby targets. Can be triggered up to 1 time every 1.5 seconds. Chilling Strike damage counts as normal attack damage. If any 1 physical or flame weapon is equipped, Chilling Strike damage is multiplied by 1.3. In addition, Chilling Strike damage is not affected by any damage boost effects except from titan equipment's rare stats, and won't trigger additional attack effects.",
+    "aditional_effect": "",
+    "advancements": {
+      "1★": "1★ When dealing damage to targets below 80% HP, increase final damage by 12%. This effect works in the off-hand slot. Being attacked when in Concealment state will not break Concealment and the maximum number of attacks that can be blocked is increased to 3 times. After breaking Concealment by launching an attack, additionally gain a shield equal to Concealment duration multiplied by 5% of the Wanderer's Max HP (does not exceed 120% of the Wanderer's Max HP). Lasts for 30 seconds.",
+      "3★": "3★ Increase Wicked's shatter by 20%. When Fevered Hunt is triggered, draw in nearby ice cores to the Wanderer's surroundings and detonate them, then enter Permeation for 5 seconds, during which Arctic Bite replaces the weapon-switching button (but this Arctic Bite does not trigger the additional skill effects) and each time it is used reduces Arctic Bite's cooldown by 20 seconds. Use normal attack to immediately exit Permeation.",
+      "5★": "5★ Increase Ice Core Detonation damage by 150%. After Fixate tosses the weapon and hits a target, place Snow Trace on the target for 5 seconds (this effect's trigger is prioritized before the charged attack damage from Fixate). When Snow Trace fades, target takes damage equal to 30% of the total damage taken during Snow Trace (does not exceed Wanderer's ATK multiplied by 650 in solo mode, and Wanderer's ATK multiplied by 6500 while on a team). Damage is not affected by any damage boost effects except from titan equipment's rare stats, and won't trigger additional attack effects. Snow Trace can be triggered up to once every 30 seconds.",
+      "6★": "6★ The frost-volt damage increase from Arctic Bite can be stacked up to 3 times."
+    },
+    "matrice_src": "/matrices/yanuo_matrice.jpg",
+    "matrice_2p": "Increases physical attack and flame attack by 20%/25%/30%/35%. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
+    "matrice_4p": "When equipped with at least 1 physical weapon, all elemental damage is increased by 28%/32%/36%/42%. When equipped with Equilibrium, all elemental damage is additionally increased by 21%. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
+    "miniImage1": "src/assets/mini-images/dps.jpg",
+    "miniImage2": "src/assets/mini-images/fireelement.jpg",
+    "shatter": "16.00",
+    "charge": "12.00",
+    "awaken": "Increase final damage by 18%. When equipped with Wicked, increase final damage by an additional 6%.",
+    "release_date": "DECEMBER 19, 2023",
+    "src_video": "https://www.youtube.com/embed/n6YZ4-oifZE?si=DL1UbMn7kPTtdOzW",
+    "attacks": [
+      {
+        "name": "Pillage",
+        "description": "While on the ground, use normal attack to launch 6 consecutive attacks (up to 45 ice cores may exist on the field at any given time). First Attack: Deal damage equal to 36% of ATK plus 227, and create 1 ice core. Second Attack: Deal damage equal to 46% of ATK plus 291, and create 2 ice cores. Third Attack: Deal damage equal to 280% of ATK plus 1768. Fourth Attack: Deal damage equal to 244% of ATK plus 1541, and create 1 ice core. Fifth Attack: Deal damage equal to 380% of ATK plus 2400, and create 3 ice cores. Sixth Attack: Deal damage equal to 315% of ATK plus 1989. Attack x6"
+      },
+      {
+        "name": "Hunt",
+        "description": "While airborne, use normal attack to launch 6 consecutive attacks in mid-air, consuming endurance. First Attack: Deal damage equal to 75% of ATK plus 474. Second Attack: Deal damage equal to 145% of ATK plus 916. Third Attack: Deal damage equal to 175% of ATK plus 1105. Fourth Attack: Deal damage equal to 153% of ATK plus 966. Fifth Attack: Deal damage equal to 238% of ATK plus 1503. Sixth Attack: Deal damage equal to 440% of ATK plus 2779."
+      },
+      {
+        "name": "Frozen Spike ",
+        "description": "While on the ground, tap and hold normal attack when using the second, fourth, and fifth normal attacks to trigger Frozen Spike, leaping backward to charge while in the air, up to 3 charges. Phase 1 charged hit: Deal damage equal to 182% of ATK plus 1149. Phase 2 charged hit: Deal damage equal to 320% of ATK plus 2021. Phase 3 charged hit: Deal damage equal to 455% of ATK plus 2874."
+      },
+      {
+        "name": "Death From Above",
+        "description": "While airborne, tap and hold normal attack to trigger Death From Above. Stab the ground with the lance upon landing, dealing damage equal to 120% of ATK plus 758 to nearby targets."
+      },
+      {
+        "name": "Fixate",
+        "description": "While on the ground, hold normal attack to trigger Fixate to charge. Within 6 seconds, damage increases depending on the charge duration, during which the Wanderer gains hyperbody, then the weapon is tossed in the target's direction. After the weapon lands a hit, deal damage up to 4480% of ATK plus 28295 to nearby targets. Aim assist is activated after aiming at a target within range for 2.5 seconds during Fixate's charging. The tossed weapon automatically hits the target in the head (losing the target with aim assist does not affect charging). After Fixate tosses the weapon, a new skill button for Shadow Execution becomes available."
+      },
+      {
+        "name": "Boneshaver",
+        "description": "While on the ground, tap and hold normal attack when aiming at the sky to trigger Boneshaver, during which the Wanderer gains hyperbody. Tosses the lance in the target direction, dealing damage equal to 160% of ATK plus 1011 to nearby targets and placing Force Impact on targets hit. Boneshaver does not trigger Shadow Execution after tossing the weapon."
+      }
+    ],
+    "dodges": [
+      {
+        "name": "Concealment",
+        "description": "While on the ground, tap and hold dodge to trigger Concealment for 60 seconds and become concealed (in solo mode, create an ice sculpture that attracts enemy attention for up to 15 seconds), increasing movement speed by 30%. While concealed, the Wanderer blocks damage equal to 50% of Max HP up to 1 time (this effect can only be triggered up to 1 time every 10 seconds). Concealment breaks when launching an attack and dealing damage with Wicked, being attacked, or swapping weapons. Hunting: When concealment breaks from launching an attack with Wicked and landing a hit, trigger Fevered Hunt. This resets Arctic Bite's cooldown and increases the Wanderer's final damage exponentially by 2.4% to 36% based on the Concealment duration. Receive maximum damage boost after 10 seconds of Concealment. Damage dealt using Fixate to trigger Hunting also benefits from the damage boost."
+      },
+      {
+        "name": "Impending Chill",
+        "description": "Use normal attack during the short perfect dodge window (use a directional button before dodging) to trigger Impending Chill, dealing damage equal to 30% of ATK plus 189 to targets ahead and creating 2 ice cores (up to 45 ice cores may exist on the field at any given time)."
+      },
+      {
+        "name": "Death Aflutter",
+        "description": "Use normal attack right after dodging backward to trigger Death Aflutter, leaping forward and dealing equal to 70% of ATK plus 442 to nearby targets upon landing. This also creates 1 ice core (up to 45 ice cores may exist on the field at any given time)."
+      },
+      {
+        "name": "Unforeseen Doom",
+        "description": "Tap normal attack at the moment the Wanderer enters concealment from holding dodge to quickly trigger Fixate, dealing damage equal to 160% of ATK plus 1011. After tossing the weapon, a new skill button for Shadow Execution becomes available."
+      }
+      
+    ],
+    "skills": [
+      {
+        "name": "Arctic Bite",
+        "description": "Swing the lance to tear through space, during which the Wanderer gains hyperbody and a 2-second 80% damage reduction, dealing damage equal to 420% of ATK plus 2653 to nearby targets, and creating a tear to draw in nearby targets that lasts for 30 seconds. This also creates 6 ice cores (up to 45 ice cores may exist on the field at any given time). Cooldown: 60 seconds. After successfully using Arctic Bite, increase the Wanderer's frost and volt damage by 9%, and the Wanderer ignores 15% of the target's frost and volt resistance, lasting for 60 seconds (each element's total resistance ignored cannot exceed 50%)."
+      },
+      {
+        "name": "Frigid Blast",
+        "description": "When Fixate tosses the weapon through the tear, the cold air explodes, dealing damage equal to 330% of ATK plus 2084 to enemies near the tear, strongly freezing them for 5 seconds (triggers up to once every 30 seconds, does not work on bosses). Additionally, it draws in and detonates all the nearby ice cores, and places Force Impact on the targets. Ice Core Detonation: Each ice core deals damage equal to 80% of ATK to nearby targets, and the shatter from each ice core is calculated independently."
+      },
+      {
+        "name": "Shadow Execution",
+        "description": "Move to the weapon's location and strike swiftly (if the thrown weapon has previously hit a target, then move in front of that target), dealing damage equal to 99% of ATK plus 625 to nearby targets (does not trigger the skill's additional effect). When Shadow Execution hits a target, triggers Phantasia if it's not on cooldown."
+      }
+    ],
+    "discharges": [
+      {
+        "name": "Deadly Euphoria",
+        "description": "When weapon charge is full or Phantasia is triggered, upon switching to this weapon, remove all debuffs from the Wanderer. Yanuo stabs the lance into the ground, dealing damage equal to 368% of ATK plus 2324 to the targets in the area ahead and creating 6 ice cores (up to 45 ice cores may exist in battle at any given time). During this period, gain damage immunity for 1.5 seconds (unavailable in Apex League)."
+      }
+    ],
+    "recommended_pairing": [
+      {
+        "title": "Nan Yin",
+        "src": "/src/assets/images/nanyin.jpg",
+        "miniImage1": "/src/assets/mini-images/dps.jpg",
+        "miniImage2": "/src/assets/mini-images/alteredelement.jpg"
+      },
+      {
+        "title": "Loslyn",
+        "src": "/src/assets/images/loslyn.jpg",
+        "miniImage1": "/src/assets/mini-images/dps.jpg",
+        "miniImage2": "/src/assets/mini-images/dual_frost_volt.jpg"
+      }
+      
+    ],
+    "recommended_matrice": [
+      {
+        "title": "Yanuo",
+        "src": "/matrices/yanuo_matrice.jpg",
+        "quantity": "X4"
+      },
+      {
+        "title": "Haboela",
+        "src": "/matrices/habramatrice.jpg",
+        "quantity": "X4"
+      },
+      {
+        "title": "Scylla",
+        "src": "/public/matrices/scyllamatrice.jpg",
+        "quantity": "X4"
+      }
+
+    ]
+  },
+  {
+    "id": 43,
+    "src": "/background/asuka_background.png",
+    "alt": "Imagen 43",
+    "title": "Asuka",
+    "weapon": "Asuka",
+    "weapon_effects": "When the weapon is fully charged, the next attack inflicts Armor Dissolve on the target for 45 seconds, increasing their flame and physical damage taken by 10% (and an additional 15% in team play). This effect will replace the grievous status on the target, and targets with this effect cannot become grievous. Physical attacks will stun targets under the dissolve effect for 2 seconds, and flame attacks will decrease the targets' speed by 50% for 5 seconds. This effect can only trigger 1 time every 15 seconds on the same target.",
+    "element_resonance": "Increase physical ATK by 15% and physical resistance by 25%. Activate by equipping 2 or more physical weapons. This set effect works in the off-hand slot. Cannot stack with other Physical Resonance or Physical Reaction effects, with Physical Resonance taking precedence.",
+    "secondary_elemental_resonance": "Increase flame ATK by 15% and flame resistance by 25%. Activate by equipping 2 or more flame weapons. This set effect works in the off-hand slot. Cannot stack with other Flame Resonance or Flame Reaction effects, with Flame Resonance taking precedence.",
+    "weapon_passive": "When Spear of Longinus is equipped, any weapon's discharge skill will deal damage equal to 58.58% of physical ATK plus 0.78% of Max HP plus 29.29% of the sum of all the Wanderer's resistance types plus 107.4% of crit to nearby targets. While in combat, after every 0.5 seconds, the next Swift Cut damage will be increased by an additional 1 time, up to a maximum of 30 times. When multiple Swift Cut damages exist, the highest initial value is used for calculation. Swift Cut damage is counted as discharge skill damage. If there is 1 frost/volt weapon of any kind equipped, Reverent Spear damage is increased to 1.3 times. In addition, Reverent Spear damage is not affected by any damage boost effects except from titan equipment's rare stats, and won't trigger additional attack effects.",
+    "aditional_effect": "",
+    "advancements": {
+      "1★": "1★ Increase maximum Vengeance stacks from 10 to 15. After all stacks are consumed, additionally trigger an enormous Spear of Longinus. If the current weapon's element is physical or flame, deal the weapon's elemental damage equal to 2000% of ATK to nearby targets.",
+      "3★": "3★ While the Wanderer has an A.T. Field active, attacks can ignore a certain percentage of the damage reduction from a target's shield. This percentage is equal to 30% of the current A.T. Field's durability percentage plus 20%. When Fortitude Resonance is active, increase the Wanderer's shatter at a rate equal to 100% of the A.T. Field's durability percentage.",
+      "5★": "5★ For every 1 stack of Vengeance consumed, regenerate 6% of A.T. Field's maximum durability.",
+      "6★": "6★ Increase the physical damage boost granted while A.T. Field is active to 36% and the flame damage boost to 24%. When Fortitude Resonance is activated, while A.T. Field is active, nearby teammates ignore15% of their targets' shield's damage reduction. Also, reduce nearby targets' all resistance by 1200%. This effect cannot be stacked."
+    },
+    "matrice_src": "/matrices/asuka_matrice.jpg",
+    "matrice_2p": "Increases physical attack and flame attack by 20%/25%/30%/35%. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
+    "matrice_4p": "When equipped with at least 1 physical weapon, all elemental damage is increased by 28%/32%/36%/42%. When equipped with Equilibrium, all elemental damage is additionally increased by 21%. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
+    "miniImage1": "src/assets/mini-images/dps.jpg",
+    "miniImage2": "src/assets/mini-images/fireelement.jpg",
+    "shatter": "12.00",
+    "charge": "10.00",
+    "awaken": "Increase final damage by 18%. When Fortitude Resonance is activated, the A.T. Field durability is set to at least 30% of its maximum value.",
+    "release_date": "DECEMBER 19, 2023",
+    "src_video": "https://www.youtube.com/embed/n6YZ4-oifZE?si=DL1UbMn7kPTtdOzW",
+    "attacks": [
+      {
+        "name": "Brandishing Spear: Forming Shadow",
+        "description": "While on the ground, use normal attack to launch 5 consecutive attacks. First Attack: Deal damage equal to 163% of ATK plus 1029 and knock the target back. Second Attack: Deal damage equal to 190% of ATK plus 1200 and knock the target back. Third Attack: Deal damage equal to 315% of ATK plus 1989 and knock the target back. Fourth Attack: Deal damage up to 315% of ATK plus 1989 and knock the target back. Fifth Attack: Deal damage equal to 344% of ATK plus 2173 and launch the target."
+      },
+      {
+        "name": "Thrusting Spear: Blinking Shadow",
+        "description": "While airborne, use normal attack to attack 5 times in a row in mid-air, consuming endurance. First Attack: Deal damage equal to 154% of ATK plus 973. Second Attack: Deal damage equal to 181% of ATK plus 1143. Third Attack: Deal damage equal to 299% of ATK plus 1888. Fourth Attack: Deal damage equal to 300% of ATK plus 1895. Fifth Attack: Deal damage equal to 326% of ATK plus 2059 and launch the target."
+      },
+      {
+        "name": "Reverent Spear: Raging Wave",
+        "description": "While using normal attack on the ground, tap and hold normal attack when using the first to fourth normal attacks to trigger Reverent Spear: Raging Wave. Continuously attack multiple times, dealing damage equal to 586% of ATK plus 3701 to nearby targets."
+      },
+      {
+        "name": "Charging Spear: Assassinate",
+        "description": "Tap and hold normal attack while airborne (tap when a target is available), or use normal attack while climbing, jumping backward, or using the Jetpack to trigger Charging Spear: Assassinate. Dive down from above, dealing damage equal to 293% of ATK plus 1851 to nearby targets upon reaching the ground."
+      }
+    ],
+    "dodges": [
+      {
+        "name": "Extending Spear: Plunder",
+        "description": "Use normal attack during the short perfect dodge window (use a directional button before dodging) to trigger Extending Spear: Plunder, dealing damage up to 246% of ATK plus 1554 to targets ahead."
+      },
+      {
+        "name": "Leaping Slam",
+        "description": "Use normal attack during the short period after dodging to trigger Leaping Slam, dealing damage up to 246% of ATK plus 1554 damage to targets ahead."
+      }
+      
+    ],
+    "skills": [
+      {
+        "name": "Cloud-Piercer",
+        "description": "Throw the weapon toward the target and draw in nearby targets, dealing damage equal to 1604% of ATK plus 10131, then briefly immobilize nearby targets. Cooldown: 20 seconds. This is not affected by other cooldown clearing, resetting, or changing effects. After successfully using this skill, gain 10 stacks of Vengeance. Dealing damage to an enemy will consume 1 Vengeance stack. If the equipped weapon's type is physical or flame, deal additional damage of the weapon's type equal to 600% of ATK to nearby targets. This effect can trigger up to 1 time per second. Additionally, after successfully using this skill, generate an A.T. Field with durability equal to 50% of Max HP for 30 seconds. During this time, increase the Wanderer's physical damage by 18% and flame damage by 12%, and gain hyperbody. When the Wanderer receives damage, the A.T. Field will reduce damage based on its remaining durability percentage and deduct its durability based on the damage dealt (down to a minimum of 10% durability). While Fortitude Resonance is active, if the Wanderer receives damage while having Vengeance stacks, consume 1 Vengeance stack and block damage equal to 8% of Max HP. This effect can trigger up to 1 time every 0.5 seconds."
+      }
+    ],
+    "discharges": [
+      {
+        "name": "Weapons Lift-Off",
+        "description": "When weapon charge is full or Phantasia is triggered, upon switching to this weapon, remove all debuffs from the Wanderer and pilot EVA-02 to execute a flying kick, dealing damage equal to 1755% of ATK plus 11084 to nearby targets. During this period, gain damage immunity for 1.5 seconds (unavailable in Apex League)."
+      }
+    ],
+    "recommended_pairing": [
+      {
+        "title": "Anka",
+        "src": "/src/assets/images/anka.jpg",
+        "miniImage1": "/src/assets/mini-images/dps.jpg",
+        "miniImage2": "/src/assets/mini-images/zekedual.jpg"
+      },
+      {
+        "title": "Nora",
+        "src": "/src/assets/images/nora.png",
+        "miniImage1": "/src/assets/mini-images/dps.jpg",
+        "miniImage2": "/src/assets/mini-images/alteredelement.jpg"
+      }
+      
+    ],
+    "recommended_matrice": [
+      {
+        "title": "Asuka",
+        "src": "/matrices/asuka_matrice.jpg",
+        "quantity": "X4"
+      },
+      {
+        "title": "Haboela",
+        "src": "/matrices/habramatrice.jpg",
+        "quantity": "X4"
+      },
+      {
+        "title": "Scylla",
+        "src": "/public/matrices/scyllamatrice.jpg",
+        "quantity": "X4"
+      }
+
+    ]
+  },
+  {
+    "id": 44,
+    "src": "/background/rei_background.png",
+    "alt": "Imagen 44",
+    "title": "Ayanami Rei",
+    "weapon": "Ayanami Rei",
+    "weapon_effects": "When the weapon is fully charged, the next attack applies Force Impact on the enemy for 45 seconds, increasing their frost and volt damage taken by 10% (and an additional 15% in team play). Force Impact replaces the target's grievous status, and targets with Force Impact cannot become grievous. Frost attacks will freeze targets with Force Impact for 2 seconds, and volt attacks will remove the buffs on targets with Force Impact. This effect can only trigger 1 time every 15 seconds on the same target.",
+    "element_resonance": "Increase volt ATK by 15% and volt resistance by 25%. Activate by equipping 2 or more volt weapons. This set effect works in the off-hand slot. Cannot stack with other Volt Resonance or Volt Reaction effects, with Volt Resonance taking precedence.",
+    "secondary_elemental_resonance": "Increase frost ATK by 15% and frost resistance by 25%. Activate by equipping 2 or more frost weapons. This set effect works in the off-hand slot. Cannot stack with other Frost Resonance or Frost Reaction effects, with Frost Resonance taking precedence.",
+    "weapon_passive": "After using Mecha Strike, deal damage equal to 109.4% of volt ATK plus 15.6% of Max HP plus 56.3% of the sum of all the Wanderer's resistance types plus 210.9% of crit to targets hit every second for 30 seconds. Multiple Detachment damage will not stack and Flash damage counts as skill damage. If any 1 physical or flame weapon is equipped, Flash damage is increased to 1.3 times. In addition, Flash damage is not affected by any damage boost effects except from titan equipment's rare stats, and won't trigger additional attack effects.",
+    "aditional_effect": "When using any weapon to deal damage, fire 1 Homing Arrow toward the targets, dealing damage equal to 120% of ATK to the first target hit. At the same time, receive 4 special energy. The Homing Arrow will remain on the target and apply Overload for 30 seconds. When the number of Homing Arrows on a target reaches 3, the arrows will detonate, dealing damage equal to 360% of ATK to nearby targets. Homing Arrow can trigger up to 1 time every 0.5 seconds",
+    "advancements": {
+      "1★": "1★ When Salvation is in the off-hand slot, increase Homing Arrow's detonation damage by 100%.",
+      "3★": "3★ Increase the volt damage dealt to targets with Homing Arrow: Overloaded by 10% and frost damage by 10%. This effect works in the off-hand slot.",
+      "5★": "5★ After using Mecha Strike, gain an additional 25 special energy.",
+      "6★": "6★ After entering Energy Consumption, increase the Wanderer's volt damage by 16% and frost damage by 10% for 20 seconds."
+    },
+    "matrice_src": "/matrices/rei_matrice.jpg",
+    "matrice_2p": "Increases physical attack and flame attack by 20%/25%/30%/35%. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
+    "matrice_4p": "When equipped with at least 1 physical weapon, all elemental damage is increased by 28%/32%/36%/42%. When equipped with Equilibrium, all elemental damage is additionally increased by 21%. This set effect works in the off-hand slot. Only the set with the highest star rating will take effect.",
+    "miniImage1": "src/assets/mini-images/dps.jpg",
+    "miniImage2": "src/assets/mini-images/fireelement.jpg",
+    "shatter": "14.00",
+    "charge": "14.00",
+    "awaken": "Increase final damage by 18%. When Attack Resonance is activated, increase volt damage by 8%. When any Resonance type other than Attack Resonance is activated, increase Charged Shots' block effect to 12% of the Wanderer's Max HP, and increase Rapid Bow's and Aerial Assault's slowing magnetic field duration to 4 seconds.",
+    "release_date": "DECEMBER 19, 2023",
+    "src_video": "https://www.youtube.com/embed/I4NQ8w6y_XQ?si=G-PZ6X7D8sp11ddf",
+    "attacks": [
+      {
+        "name": "Rapid Bow",
+        "description": "While on the ground, use normal attack to launch 6 consecutive attacks. First Attack: Deal damage equal to 85% of ATK plus 537 and knock the target back a short distance. Second Attack: Deal damage equal to 117% of ATK plus 739 and knock the target back a short distance. Third Attack: Deal damage equal to 139% of ATK plus 878 and knock the target back a short distance. Fourth Attack: Deal damage up to 128% of ATK plus 808 and knock the target back a short distance. After the fifth attack, when a flashing light appears, tap to trigger the sixth attack. Sixth Attack: Fire a powerful energy arrow and release Homing Arrows that deal damage equal to 311% of ATK plus 1964 to targets and apply a slowing magnetic field at the location of the first target hit for 3 seconds. Enemies within the area have their movement and attack speed reduced by 35%."
+      },
+      {
+        "name": "Aerial Assault",
+        "description": "While airborne, use normal attack to launch 6 consecutive attacks in mid-air, consuming endurance. First Attack: Deal damage equal to 85% of ATK plus 537. Second Attack: Deal damage equal to 117% of ATK plus 739. Third Attack: Deal damage equal to 139% of ATK plus 878. Fourth Attack: Deal damage up to 128% of ATK plus 808. Fifth Attack: Deal damage equal to 267% of ATK plus 1686. After the fifth attack, when a flashing light appears, tap to trigger the sixth attack. Sixth Attack: Fire a powerful energy arrow and release 5 Homing Arrows that deal damage equal to 311% of ATK plus 1964 to targets and apply a slowing magnetic field at the location of the first target hit. Enemies within the area have their movement and attack speed reduced by 40% for 3 seconds."
+      },
+      {
+        "name": "Backjump Arrow",
+        "description": "When using normal attack on the ground or in mid-air, while using the first to fifth normal attacks, tap and hold normal attack to trigger Backjump Arrow. Fire a shot ahead while jumping backward, dealing damage equal to 272% of ATK plus 1718 to the target hit. If special energy is greater than 70 at that time, trigger Energy Consumption: Increase volt ATK by 15% and frost ATK by 5%. While Salvation is in the main slot, consume 5 special energy every 0.5 seconds. Increase Salvation's damage dealt by 30%. Continuously tap or tap and hold normal attack to trigger Dodging Rapidfire. While Salvation is in the off-hand slot, consume 3.3 special energy every 0.5 seconds. Increase Homing Arrow's damage by 50% and increase its detonation radius. The maximum amount of special energy is 100. When this amount is reached, switching Salvation from the main slot to the off-hand slot will immediately cause the Wanderer to enter Energy Consumption."
+      },
+      {
+        "name": "Dodging Rapidfire",
+        "description": "While in Energy Consumption, use normal attack to attack 3 times in a row. First Attack: Deal damage equal to 920% of ATK plus 5811. Second Attack: Deal damage equal to 880% of ATK plus 5558. Third Attack: Deal damage equal to 1200% of ATK plus 7579."
+      },
+      {
+        "name": "Precision Shot",
+        "description": "Tap and hold normal attack to charge an attack. Deal damage equal to 32% of ATK plus 202. For every 0.1 seconds spent charging, the damage increases by 100%, reaching maximum damage after 2.3 seconds of charging.",
+        "use": "Hold Attack"
+      }
+    ],
+    "dodges": [
+      {
+        "name": "Triple Shot",
+        "description": "Use normal attack during the short period after dodging to trigger Triple Shot, dealing damage equal to 36% of ATK plus 227 to the first target hit."
+      },
+      {
+        "name": "Charged Shots",
+        "description": "After dodging, tap normal attack at the appropriate time to trigger Charged Shots, firing out powerful energy arrows that deal damage equal to 129% of ATK plus 815 to targets. At the same time, fire Homing Arrows. The Wanderer receives 1 Blocking Barrier for 15 seconds, which blocks damage that does not exceed 10% of the Wanderer's Max HP. The Wanderer can only have up to 3 Blocking Barriers simultaneously."
+      }
+      
+    ],
+    "skills": [
+      {
+        "name": "Mecha Strike",
+        "description": "Summon a mecha to pummel enemies, dealing damage equal to 1008% of ATK plus 6366 to nearby targets. During this time, the Wanderer gains hyperbody and receives 35 special energy. Cooldown: 20 seconds. This is not affected by other cooldown clearing, resetting, or changing effects."
+      }
+    ],
+    "discharges": [
+      {
+        "name": "Defense Field",
+        "description": "When weapon charge is full or Phantasia is triggered, upon switching to this weapon, remove all debuffs from the Wanderer. Summon a mecha and use its shield to smash the ground, with the resulting shockwave dealing damage equal to 1337% of ATK plus 8444 to nearby targets. Also, gain 30 special energy. During this period, gain damage immunity for 1.5 seconds (unavailable in Apex League)."
+      }
+    ],
+    "recommended_pairing": [
+      {
+        "title": "Mimi",
+        "src": "/src/assets/images/mimi1.jpg",
+        "miniImage1": "/src/assets/mini-images/tank.jpg",
+        "miniImage2": "/src/assets/mini-images/voltelement.jpg"
+      },
+      {
+        "title": "Nora",
+        "src": "/src/assets/images/nora.png",
+        "miniImage1": "/src/assets/mini-images/dps.jpg",
+        "miniImage2": "/src/assets/mini-images/alteredelement.jpg"
+      }
+      
+    ],
+    "recommended_matrice": [
+      {
+        "title": "Ayanami Rei",
+        "src": "/matrices/rei_matrice.jpg",
+        "quantity": "X4"
+      },
+      {
+        "title": "Haboela",
+        "src": "/matrices/habramatrice.jpg",
+        "quantity": "X4"
+      },
+      {
+        "title": "Scylla",
+        "src": "/public/matrices/scyllamatrice.jpg",
+        "quantity": "X4"
+      }
+
+    ]
   }
+  
 ]

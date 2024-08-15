@@ -47,16 +47,17 @@ function CharacterDetail() {
 
 
   return (
-    <div>
+    <div className='character-detail-container' themeUse={theme}>
       {characterDetails ? (
         <div className='contenedor'>
           <div className="titulo-principal-personaje">
              <h2 className="titulo-del-personaje">{characterDetails.title}</h2>
              <h3 className='fecha-de-salida'>{characterDetails.release_date}</h3>
+             <h2 className='subtitulo'>Shatter: {characterDetails.shatter} Charge: {characterDetails.charge}</h2>
           </div>
           <img src={characterDetails.src} className="imageCaracter" />
           <div className="cita-textual">
-            <h3 className='awaken'>{characterDetails.awaken_title}</h3>
+            <h3 className='awaken'><HighlightedNumbers text={characterDetails.awaken_title}/> </h3>
           <blockquote>
             <p className='p-awaken'>
               <i><HighlightedNumbers text={characterDetails.awaken}/> </i>
@@ -69,6 +70,7 @@ function CharacterDetail() {
         version={version}
         theme={theme} 
       >
+       
             <div className="slider-content">
               <span className="label-ch" style={{color: "#FF0000"}}>CN</span>
               <span className="label-gl" style={{color: "#0685CF"}}>🌎</span>
@@ -77,39 +79,67 @@ function CharacterDetail() {
           </div>
           {/* Puedes mostrar otros detalles aquí*/}
           <div className='contenedor-personaje'>
-            <h2 className='subtitulo'>Shatter: {characterDetails.shatter} Charge: {characterDetails.charge}</h2>
+            
             <p className='parrafo-weapon'>Weapon Effects</p>
             <p className='weapon-effects'><HighlightedNumbers text={characterDetails.weapon_effects} /></p>
+            <p className='parrafo-weapon'>Elemental Resonance</p>
             <p className='element-resonance'><HighlightedNumbers text={characterDetails.element_resonance} /></p>
+            <p className='element-resonance'><HighlightedNumbers text={characterDetails.secondary_elemental_resonance} /></p>
+            
+            <p className='parrafo-weapon'>Weapon's Passive</p>
             <p className='weapon-passive'><HighlightedNumbers text={characterDetails.weapon_passive} /></p>
+            <p className='aditional_effect'><HighlightedNumbers text={characterDetails.aditional_effect}/></p>
             
 
             
           
             
             {characterDetails.advancements && (
-              <div>
-                <h2 className='parrafo-weapon'>Advancements</h2>
-                <ul className='advancements'>
-                  {Object.keys(characterDetails.advancements).map((key) => (
-                    <p key={key} className='stars'>
-                       <HighlightedNumbers text={characterDetails.advancements[key]} />
+              // <div>
+              //   <h2 className='parrafo-advancements'>Advancements</h2>
+              //   <ul className='advancements'>
+              //     {Object.keys(characterDetails.advancements).map((key) => (
+              //       <p key={key} className='stars'>
+              //          <HighlightedNumbers text={characterDetails.advancements[key]} />
                      
-                    </p>
-                  ))}
-                </ul>
-              </div>
+              //       </p>
+              //     ))}
+              //   </ul>
+              // </div>
+              <div>
+                <h2 className='parrafo-advancements'>Advancements</h2>
+                <table className='table-advancements'>
+                  <thead>
+                    <tr>
+                      <th>Advancement</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {Object.keys(characterDetails.advancements).map((key) => (
+                      <tr key={key}>
+                        <td className='td-advancement'><strong>{key}</strong></td>
+                        <td className='td-advancement'>
+                          <HighlightedNumbers text={characterDetails.advancements[key]} />
+                        </td>
+                    </tr>
+      ))}
+                  </tbody>
+                </table>
+</div>
+
             )}
 
 <iframe
-  width="560"
-  height="315"
+  width="100%"
+  height="400"
   src={characterDetails.src_video}
   title="YouTube video player"
   frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowFullScreen
 ></iframe>
+
           </div>
 
           <WeaponInfo style={{ maxWidth: '600px' }} version={version} />
@@ -121,7 +151,10 @@ function CharacterDetail() {
         <p>Cargando detalles del personaje...</p>
       )}
     </div>
-  );
+  
+
+);
 }
+
 
 export default CharacterDetail;
